@@ -1,0 +1,1320 @@
+2025-02-19 07:14:23,790 - InstagramBot - INFO - Attempting to authenticate with Instagram
+2025-02-19 07:14:23,790 - instagrapi - INFO - https://i.instagram.com/api/v1/launcher/sync/
+2025-02-19 07:14:24,213 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/launcher/sync/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:14:24,523 - instagrapi - INFO - https://i.instagram.com/api/v1/accounts/login/
+2025-02-19 07:14:28,693 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/accounts/login/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:14:29,694 - instagrapi - INFO - https://i.instagram.com/api/v1/feed/reels_tray/
+2025-02-19 07:14:30,879 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/feed/reels_tray/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:14:31,882 - instagrapi - INFO - https://i.instagram.com/api/v1/feed/timeline/
+2025-02-19 07:14:34,527 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/feed/timeline/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:14:34,529 - InstagramBot - INFO - Successfully authenticated with Instagram
+2025-02-19 07:14:35,832 - public_request - INFO - [None] [201] GET https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis
+2025-02-19 07:14:35,832 - public_request - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis) >>> 
+2025-02-19 07:14:39,032 - public_request - INFO - [None] [201] GET https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis
+2025-02-19 07:14:39,032 - public_request - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis) >>> 
+2025-02-19 07:14:42,225 - public_request - INFO - [None] [201] GET https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis
+2025-02-19 07:14:42,226 - public_request - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis) >>> 
+2025-02-19 07:14:43,227 - instagrapi - INFO - https://i.instagram.com/api/v1/users/alexandrequeirozmd/usernameinfo/
+2025-02-19 07:14:43,565 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/users/alexandrequeirozmd/usernameinfo/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:14:43,565 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 07:14:45,578 - InstagramBot - INFO - Profile followers: 4411
+2025-02-19 07:14:46,768 - public_request - INFO - [None] [404] GET https://www.instagram.com/explore/tags/photography/?__a=1&__d=dis
+2025-02-19 07:14:47,774 - instagrapi - INFO - https://i.instagram.com/api/v1/tags/photography/sections/
+2025-02-19 07:14:50,735 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/tags/photography/sections/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:14:51,745 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571262156470558022/like/
+2025-02-19 07:14:52,457 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571262156470558022/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:14:52,457 - InstagramBot - INFO - Performed likes action. Hourly: 1/20, Daily: 1/100
+2025-02-19 07:14:52,457 - InstagramBot - INFO - Liked post 3571262156470558022_49657580 from #photography
+2025-02-19 07:14:55,461 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571203470029163819/like/
+2025-02-19 07:14:56,174 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571203470029163819/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:14:56,186 - InstagramBot - INFO - Performed likes action. Hourly: 2/20, Daily: 2/100
+2025-02-19 07:14:56,186 - InstagramBot - INFO - Liked post 3571203470029163819_65381444674 from #photography
+2025-02-19 07:14:59,187 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571155411242177039/like/
+2025-02-19 07:14:59,663 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571155411242177039/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:14:59,663 - InstagramBot - INFO - Performed likes action. Hourly: 3/20, Daily: 3/100
+2025-02-19 07:14:59,663 - InstagramBot - INFO - Liked post 3571155411242177039_39283126888 from #photography
+2025-02-19 07:15:01,667 - InstagramBot - INFO - Successfully liked 3 posts from #photography
+2025-02-19 07:15:04,670 - instagrapi - INFO - https://i.instagram.com/api/v1/accounts/logout/
+2025-02-19 07:15:06,240 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/accounts/logout/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:15:06,240 - InstagramBot - INFO - Successfully logged out
+2025-02-19 07:17:28,240 - InstagramBot - INFO - Attempting to authenticate with Instagram
+2025-02-19 07:17:28,240 - instagrapi - INFO - https://i.instagram.com/api/v1/launcher/sync/
+2025-02-19 07:17:28,916 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/launcher/sync/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:17:29,169 - instagrapi - INFO - https://i.instagram.com/api/v1/accounts/login/
+2025-02-19 07:17:32,987 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/accounts/login/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:17:33,989 - instagrapi - INFO - https://i.instagram.com/api/v1/feed/reels_tray/
+2025-02-19 07:17:34,991 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/feed/reels_tray/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:17:35,993 - instagrapi - INFO - https://i.instagram.com/api/v1/feed/timeline/
+2025-02-19 07:17:38,217 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/feed/timeline/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:17:38,220 - InstagramBot - INFO - Successfully authenticated with Instagram
+2025-02-19 07:17:39,515 - public_request - INFO - [None] [201] GET https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis
+2025-02-19 07:17:39,516 - public_request - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis) >>> 
+2025-02-19 07:17:42,701 - public_request - INFO - [None] [201] GET https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis
+2025-02-19 07:17:42,701 - public_request - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis) >>> 
+2025-02-19 07:17:45,905 - public_request - INFO - [None] [201] GET https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis
+2025-02-19 07:17:45,905 - public_request - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis) >>> 
+2025-02-19 07:17:46,907 - instagrapi - INFO - https://i.instagram.com/api/v1/users/alexandrequeirozmd/usernameinfo/
+2025-02-19 07:17:47,285 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/users/alexandrequeirozmd/usernameinfo/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:17:47,290 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 07:17:49,291 - InstagramBot - INFO - Profile followers: 4411
+2025-02-19 07:17:50,518 - public_request - INFO - [None] [404] GET https://www.instagram.com/explore/tags/capixaba/?__a=1&__d=dis
+2025-02-19 07:17:51,520 - instagrapi - INFO - https://i.instagram.com/api/v1/tags/capixaba/sections/
+2025-02-19 07:17:54,764 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/tags/capixaba/sections/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:17:55,776 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3560147449412229138/like/
+2025-02-19 07:17:56,444 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3560147449412229138/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:17:56,444 - InstagramBot - INFO - Performed likes action. Hourly: 1/20, Daily: 1/100
+2025-02-19 07:17:56,444 - InstagramBot - INFO - Liked post 3560147449412229138_57635978686 from #capixaba
+2025-02-19 07:17:59,446 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3560877272586524408/like/
+2025-02-19 07:18:00,549 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3560877272586524408/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:18:00,549 - InstagramBot - INFO - Performed likes action. Hourly: 2/20, Daily: 2/100
+2025-02-19 07:18:00,549 - InstagramBot - INFO - Liked post 3560877272586524408_2086138192 from #capixaba
+2025-02-19 07:18:03,553 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571073172533162528/like/
+2025-02-19 07:18:04,467 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571073172533162528/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:18:04,468 - InstagramBot - INFO - Performed likes action. Hourly: 3/20, Daily: 3/100
+2025-02-19 07:18:04,469 - InstagramBot - INFO - Liked post 3571073172533162528_12884769820 from #capixaba
+2025-02-19 07:18:06,469 - InstagramBot - INFO - Successfully liked 3 posts from #capixaba
+2025-02-19 07:18:09,472 - instagrapi - INFO - https://i.instagram.com/api/v1/accounts/logout/
+2025-02-19 07:18:10,758 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/accounts/logout/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:18:10,758 - InstagramBot - INFO - Successfully logged out
+2025-02-19 07:20:32,736 - InstagramBot - INFO - Attempting to authenticate with Instagram
+2025-02-19 07:20:32,736 - instagrapi - INFO - https://i.instagram.com/api/v1/launcher/sync/
+2025-02-19 07:20:33,124 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/launcher/sync/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:20:33,367 - instagrapi - INFO - https://i.instagram.com/api/v1/accounts/login/
+2025-02-19 07:20:37,026 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/accounts/login/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:20:38,028 - instagrapi - INFO - https://i.instagram.com/api/v1/feed/reels_tray/
+2025-02-19 07:20:38,938 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/feed/reels_tray/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:20:39,941 - instagrapi - INFO - https://i.instagram.com/api/v1/feed/timeline/
+2025-02-19 07:20:42,872 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/feed/timeline/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:20:42,872 - InstagramBot - INFO - Successfully authenticated with Instagram
+2025-02-19 07:20:44,184 - public_request - INFO - [None] [201] GET https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis
+2025-02-19 07:20:44,184 - public_request - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis) >>> 
+2025-02-19 07:20:47,456 - public_request - INFO - [None] [201] GET https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis
+2025-02-19 07:20:47,456 - public_request - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis) >>> 
+2025-02-19 07:20:50,633 - public_request - INFO - [None] [201] GET https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis
+2025-02-19 07:20:50,635 - public_request - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis) >>> 
+2025-02-19 07:20:51,637 - instagrapi - INFO - https://i.instagram.com/api/v1/users/alexandrequeirozmd/usernameinfo/
+2025-02-19 07:20:52,111 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/users/alexandrequeirozmd/usernameinfo/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:20:52,111 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 07:20:54,112 - InstagramBot - INFO - Profile followers: 4411
+2025-02-19 07:20:55,324 - public_request - INFO - [None] [404] GET https://www.instagram.com/explore/tags/capixaba/?__a=1&__d=dis
+2025-02-19 07:20:56,328 - instagrapi - INFO - https://i.instagram.com/api/v1/tags/capixaba/sections/
+2025-02-19 07:20:58,167 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/tags/capixaba/sections/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:20:59,178 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3560147449412229138/like/
+2025-02-19 07:20:59,706 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3560147449412229138/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:20:59,706 - InstagramBot - INFO - Performed likes action. Hourly: 1/20, Daily: 1/100
+2025-02-19 07:21:00,920 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFoLz4mOpgS%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 07:21:04,131 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFoLz4mOpgS%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 07:21:07,336 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFoLz4mOpgS%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 07:21:08,338 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3560147449412229138/info/
+2025-02-19 07:21:08,645 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3560147449412229138/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:21:08,645 - InstagramBot - INFO - Liked post 3560147449412229138_57635978686 from #capixaba -> https://www.instagram.com/p/DFoLz4mOpgS/
+2025-02-19 07:21:11,648 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571073172533162528/like/
+2025-02-19 07:21:12,240 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571073172533162528/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:21:12,241 - InstagramBot - INFO - Performed likes action. Hourly: 2/20, Daily: 2/100
+2025-02-19 07:21:13,434 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGPACFLxDIg%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 07:21:16,693 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGPACFLxDIg%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 07:21:19,896 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGPACFLxDIg%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 07:21:20,897 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571073172533162528/info/
+2025-02-19 07:21:21,241 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3571073172533162528/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:21:21,244 - InstagramBot - INFO - Liked post 3571073172533162528_12884769820 from #capixaba -> https://www.instagram.com/p/DGPACFLxDIg/
+2025-02-19 07:21:24,246 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571359485244481458/like/
+2025-02-19 07:21:25,169 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571359485244481458/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:21:25,169 - InstagramBot - INFO - Performed likes action. Hourly: 3/20, Daily: 3/100
+2025-02-19 07:21:26,385 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGQBIerOB-y%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 07:21:29,599 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGQBIerOB-y%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 07:21:32,798 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGQBIerOB-y%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 07:21:33,800 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571359485244481458/info/
+2025-02-19 07:21:34,292 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3571359485244481458/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:21:34,297 - InstagramBot - INFO - Liked post 3571359485244481458_230859418 from #capixaba -> https://www.instagram.com/p/DGQBIerOB-y/
+2025-02-19 07:21:36,298 - InstagramBot - INFO - Successfully liked 3 posts from #capixaba
+2025-02-19 07:21:39,300 - instagrapi - INFO - https://i.instagram.com/api/v1/accounts/logout/
+2025-02-19 07:21:40,589 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/accounts/logout/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:21:40,589 - InstagramBot - INFO - Successfully logged out
+2025-02-19 07:25:06,483 - InstagramBot - INFO - Attempting to authenticate with Instagram
+2025-02-19 07:25:06,483 - instagrapi - INFO - https://i.instagram.com/api/v1/launcher/sync/
+2025-02-19 07:25:06,889 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/launcher/sync/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:25:07,123 - instagrapi - INFO - https://i.instagram.com/api/v1/accounts/login/
+2025-02-19 07:25:11,120 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/accounts/login/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:25:12,122 - instagrapi - INFO - https://i.instagram.com/api/v1/feed/reels_tray/
+2025-02-19 07:25:13,068 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/feed/reels_tray/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:25:14,071 - instagrapi - INFO - https://i.instagram.com/api/v1/feed/timeline/
+2025-02-19 07:25:16,359 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/feed/timeline/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:25:16,360 - InstagramBot - INFO - Successfully authenticated with Instagram
+2025-02-19 07:25:17,656 - public_request - INFO - [None] [201] GET https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis
+2025-02-19 07:25:17,656 - public_request - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis) >>> 
+2025-02-19 07:25:20,850 - public_request - INFO - [None] [201] GET https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis
+2025-02-19 07:25:20,857 - public_request - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis) >>> 
+2025-02-19 07:25:24,066 - public_request - INFO - [None] [201] GET https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis
+2025-02-19 07:25:24,067 - public_request - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis) >>> 
+2025-02-19 07:25:25,068 - instagrapi - INFO - https://i.instagram.com/api/v1/users/alexandrequeirozmd/usernameinfo/
+2025-02-19 07:25:25,459 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/users/alexandrequeirozmd/usernameinfo/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:25:25,459 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 07:25:55,461 - InstagramBot - INFO - Profile followers: 4411
+2025-02-19 07:25:56,658 - public_request - INFO - [None] [404] GET https://www.instagram.com/explore/tags/capixaba/?__a=1&__d=dis
+2025-02-19 07:25:57,659 - instagrapi - INFO - https://i.instagram.com/api/v1/tags/capixaba/sections/
+2025-02-19 07:26:00,666 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/tags/capixaba/sections/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:26:01,675 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3560877272586524408/like/
+2025-02-19 07:26:02,091 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3560877272586524408/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:26:02,091 - InstagramBot - INFO - Performed likes action. Hourly: 1/20, Daily: 1/100
+2025-02-19 07:26:03,300 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFqxwNZSBb4%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 07:26:06,496 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFqxwNZSBb4%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 07:26:09,724 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFqxwNZSBb4%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 07:26:10,726 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3560877272586524408/info/
+2025-02-19 07:26:11,234 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3560877272586524408/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:26:11,234 - InstagramBot - INFO - Liked post 3560877272586524408_2086138192 from #capixaba -> https://www.instagram.com/p/DFqxwNZSBb4/
+2025-02-19 07:26:42,239 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570965898418093029/like/
+2025-02-19 07:26:43,821 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570965898418093029/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:26:43,821 - InstagramBot - INFO - Performed likes action. Hourly: 2/20, Daily: 2/100
+2025-02-19 07:26:45,012 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGOnpCYPnvl%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 07:26:48,212 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGOnpCYPnvl%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 07:26:51,410 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGOnpCYPnvl%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 07:26:52,415 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570965898418093029/info/
+2025-02-19 07:26:52,996 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3570965898418093029/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:26:52,996 - InstagramBot - INFO - Liked post 3570965898418093029_62031856843 from #capixaba -> https://www.instagram.com/p/DGOnpCYPnvl/
+2025-02-19 07:27:03,004 - instagrapi - INFO - https://i.instagram.com/api/v1/accounts/logout/
+2025-02-19 07:27:08,953 - InstagramBot - INFO - Attempting to authenticate with Instagram
+2025-02-19 07:27:08,953 - instagrapi - INFO - https://i.instagram.com/api/v1/launcher/sync/
+2025-02-19 07:27:09,372 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/launcher/sync/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:27:09,619 - instagrapi - INFO - https://i.instagram.com/api/v1/accounts/login/
+2025-02-19 07:27:13,357 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/accounts/login/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:27:14,366 - instagrapi - INFO - https://i.instagram.com/api/v1/feed/reels_tray/
+2025-02-19 07:27:15,184 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/feed/reels_tray/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:27:16,193 - instagrapi - INFO - https://i.instagram.com/api/v1/feed/timeline/
+2025-02-19 07:27:19,302 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/feed/timeline/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:27:19,304 - InstagramBot - INFO - Successfully authenticated with Instagram
+2025-02-19 07:27:20,590 - public_request - INFO - [None] [201] GET https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis
+2025-02-19 07:27:20,591 - public_request - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis) >>> 
+2025-02-19 07:27:23,806 - public_request - INFO - [None] [201] GET https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis
+2025-02-19 07:27:23,810 - public_request - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis) >>> 
+2025-02-19 07:27:26,994 - public_request - INFO - [None] [201] GET https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis
+2025-02-19 07:27:26,994 - public_request - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis) >>> 
+2025-02-19 07:27:27,998 - instagrapi - INFO - https://i.instagram.com/api/v1/users/alexandrequeirozmd/usernameinfo/
+2025-02-19 07:27:28,461 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/users/alexandrequeirozmd/usernameinfo/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:27:28,462 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 07:27:58,463 - InstagramBot - INFO - Profile followers: 4411
+2025-02-19 07:27:59,649 - public_request - INFO - [None] [404] GET https://www.instagram.com/explore/tags/capixaba/?__a=1&__d=dis
+2025-02-19 07:28:00,651 - instagrapi - INFO - https://i.instagram.com/api/v1/tags/capixaba/sections/
+2025-02-19 07:28:02,876 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/tags/capixaba/sections/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:28:03,886 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570667114152736185/like/
+2025-02-19 07:28:05,396 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570667114152736185/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:28:05,396 - InstagramBot - INFO - Performed likes action. Hourly: 1/20, Daily: 1/100
+2025-02-19 07:28:06,584 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGNjtJ2PjW5%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 07:28:09,784 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGNjtJ2PjW5%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 07:28:12,970 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGNjtJ2PjW5%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 07:28:13,974 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570667114152736185/info/
+2025-02-19 07:28:14,445 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3570667114152736185/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:28:14,446 - InstagramBot - INFO - Liked post 3570667114152736185_69334267973 from #capixaba -> https://www.instagram.com/p/DGNjtJ2PjW5/
+2025-02-19 07:28:45,448 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3546335266316541325/like/
+2025-02-19 07:28:47,509 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3546335266316541325/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:28:47,509 - InstagramBot - INFO - Performed likes action. Hourly: 2/20, Daily: 2/100
+2025-02-19 07:28:48,746 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DE3HSKrPN2N%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 07:28:51,953 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DE3HSKrPN2N%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 07:28:55,152 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DE3HSKrPN2N%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 07:28:56,153 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3546335266316541325/info/
+2025-02-19 07:28:56,615 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3546335266316541325/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:28:56,616 - InstagramBot - INFO - Liked post 3546335266316541325_238145963 from #capixaba -> https://www.instagram.com/p/DE3HSKrPN2N/
+2025-02-19 07:29:27,618 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3548257183701667397/like/
+2025-02-19 07:29:29,649 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3548257183701667397/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:29:29,649 - InstagramBot - INFO - Performed likes action. Hourly: 3/20, Daily: 3/100
+2025-02-19 07:29:30,842 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DE98RvuRA5F%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 07:29:34,071 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DE98RvuRA5F%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 07:29:37,283 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DE98RvuRA5F%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 07:29:38,286 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3548257183701667397/info/
+2025-02-19 07:29:38,755 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3548257183701667397/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:29:38,755 - InstagramBot - INFO - Liked post 3548257183701667397_66458265153 from #capixaba -> https://www.instagram.com/p/DE98RvuRA5F/
+2025-02-19 07:30:08,760 - InstagramBot - INFO - Successfully liked 3 posts from #capixaba
+2025-02-19 07:30:39,762 - instagrapi - INFO - https://i.instagram.com/api/v1/accounts/logout/
+2025-02-19 07:30:41,460 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/accounts/logout/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 07:30:41,460 - InstagramBot - INFO - Successfully logged out
+2025-02-19 08:58:30,249 - InstagramBot - INFO - Attempting to authenticate with Instagram
+2025-02-19 08:58:30,249 - instagrapi - INFO - https://i.instagram.com/api/v1/launcher/sync/
+2025-02-19 08:58:30,696 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/launcher/sync/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 08:58:30,965 - instagrapi - INFO - https://i.instagram.com/api/v1/accounts/login/
+2025-02-19 08:58:35,751 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/accounts/login/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 08:58:36,753 - instagrapi - INFO - https://i.instagram.com/api/v1/feed/reels_tray/
+2025-02-19 08:58:38,072 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/feed/reels_tray/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 08:58:39,075 - instagrapi - INFO - https://i.instagram.com/api/v1/feed/timeline/
+2025-02-19 08:58:42,158 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/feed/timeline/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 08:58:42,159 - InstagramBot - INFO - Successfully authenticated with Instagram
+2025-02-19 08:58:43,478 - public_request - INFO - [None] [201] GET https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis
+2025-02-19 08:58:43,478 - public_request - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis) >>> 
+2025-02-19 08:58:46,679 - public_request - INFO - [None] [201] GET https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis
+2025-02-19 08:58:46,679 - public_request - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis) >>> 
+2025-02-19 08:58:49,869 - public_request - INFO - [None] [201] GET https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis
+2025-02-19 08:58:49,869 - public_request - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis) >>> 
+2025-02-19 08:58:50,872 - instagrapi - INFO - https://i.instagram.com/api/v1/users/alexandrequeirozmd/usernameinfo/
+2025-02-19 08:58:51,338 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/users/alexandrequeirozmd/usernameinfo/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 08:58:51,339 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 08:59:21,340 - InstagramBot - INFO - Profile followers: 4411
+2025-02-19 08:59:22,546 - public_request - INFO - [None] [404] GET https://www.instagram.com/explore/tags/capixaba/?__a=1&__d=dis
+2025-02-19 08:59:23,556 - instagrapi - INFO - https://i.instagram.com/api/v1/tags/capixaba/sections/
+2025-02-19 08:59:25,958 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/tags/capixaba/sections/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 08:59:26,968 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570965898418093029/like/
+2025-02-19 08:59:27,477 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570965898418093029/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 08:59:27,477 - InstagramBot - INFO - Performed likes action. Hourly: 1/20, Daily: 1/100
+2025-02-19 08:59:28,697 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGOnpCYPnvl%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 08:59:31,910 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGOnpCYPnvl%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 08:59:35,123 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGOnpCYPnvl%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 08:59:36,125 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570965898418093029/info/
+2025-02-19 08:59:36,587 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3570965898418093029/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 08:59:36,588 - InstagramBot - INFO - Liked post 3570965898418093029_62031856843 from #capixaba -> https://www.instagram.com/p/DGOnpCYPnvl/
+2025-02-19 09:00:07,590 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3560147449412229138/like/
+2025-02-19 09:00:08,057 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3560147449412229138/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:00:08,057 - InstagramBot - INFO - Performed likes action. Hourly: 2/20, Daily: 2/100
+2025-02-19 09:00:09,254 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFoLz4mOpgS%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:00:12,504 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFoLz4mOpgS%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:00:15,711 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFoLz4mOpgS%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:00:16,713 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3560147449412229138/info/
+2025-02-19 09:00:17,051 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3560147449412229138/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:00:17,052 - InstagramBot - INFO - Liked post 3560147449412229138_57635978686 from #capixaba -> https://www.instagram.com/p/DFoLz4mOpgS/
+2025-02-19 09:00:48,055 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3560877272586524408/like/
+2025-02-19 09:00:48,531 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3560877272586524408/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:00:48,531 - InstagramBot - INFO - Performed likes action. Hourly: 3/20, Daily: 3/100
+2025-02-19 09:00:49,726 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFqxwNZSBb4%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:00:52,942 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFqxwNZSBb4%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:00:56,131 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFqxwNZSBb4%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:00:57,138 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3560877272586524408/info/
+2025-02-19 09:00:57,502 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3560877272586524408/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:00:57,502 - InstagramBot - INFO - Liked post 3560877272586524408_2086138192 from #capixaba -> https://www.instagram.com/p/DFqxwNZSBb4/
+2025-02-19 09:01:27,515 - InstagramBot - INFO - Successfully liked 3 posts from #capixaba
+2025-02-19 09:01:58,518 - instagrapi - INFO - https://i.instagram.com/api/v1/accounts/logout/
+2025-02-19 09:02:00,268 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/accounts/logout/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:02:00,268 - InstagramBot - INFO - Successfully logged out
+2025-02-19 09:27:10,384 - InstagramBot - INFO - Attempting to authenticate with Instagram
+2025-02-19 09:27:10,384 - instagrapi - INFO - https://i.instagram.com/api/v1/launcher/sync/
+2025-02-19 09:27:10,789 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/launcher/sync/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:27:11,104 - instagrapi - INFO - https://i.instagram.com/api/v1/accounts/login/
+2025-02-19 09:27:15,569 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/accounts/login/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:27:16,581 - instagrapi - INFO - https://i.instagram.com/api/v1/feed/reels_tray/
+2025-02-19 09:27:17,586 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/feed/reels_tray/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:27:18,601 - instagrapi - INFO - https://i.instagram.com/api/v1/feed/timeline/
+2025-02-19 09:27:21,454 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/feed/timeline/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:27:21,454 - InstagramBot - INFO - Successfully authenticated with Instagram
+2025-02-19 09:27:22,799 - public_request - INFO - [None] [201] GET https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis
+2025-02-19 09:27:22,800 - public_request - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis) >>> 
+2025-02-19 09:27:26,006 - public_request - INFO - [None] [201] GET https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis
+2025-02-19 09:27:26,006 - public_request - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis) >>> 
+2025-02-19 09:27:29,211 - public_request - INFO - [None] [201] GET https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis
+2025-02-19 09:27:29,211 - public_request - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis) >>> 
+2025-02-19 09:27:30,221 - instagrapi - INFO - https://i.instagram.com/api/v1/users/alexandrequeirozmd/usernameinfo/
+2025-02-19 09:27:30,559 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/users/alexandrequeirozmd/usernameinfo/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:27:30,559 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 09:28:00,570 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 09:28:01,762 - public_request - INFO - [None] [404] GET https://www.instagram.com/explore/tags/capixaba/?__a=1&__d=dis
+2025-02-19 09:28:02,765 - instagrapi - INFO - https://i.instagram.com/api/v1/tags/capixaba/sections/
+2025-02-19 09:28:05,668 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/tags/capixaba/sections/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:28:06,682 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570965898418093029/like/
+2025-02-19 09:28:07,188 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570965898418093029/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:28:07,188 - InstagramBot - INFO - Performed likes action. Hourly: 1/20, Daily: 1/100
+2025-02-19 09:28:08,381 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGOnpCYPnvl%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:28:11,604 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGOnpCYPnvl%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:28:14,805 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGOnpCYPnvl%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:28:15,807 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570965898418093029/info/
+2025-02-19 09:28:16,304 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3570965898418093029/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:28:16,304 - InstagramBot - INFO - Liked post 3570965898418093029_62031856843 from #capixaba -> https://www.instagram.com/p/DGOnpCYPnvl/
+2025-02-19 09:28:47,309 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3559166309589933212/like/
+2025-02-19 09:28:48,853 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3559166309589933212/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:28:48,854 - InstagramBot - INFO - Performed likes action. Hourly: 2/20, Daily: 2/100
+2025-02-19 09:28:50,083 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFksua7pVyc%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:28:53,714 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFksua7pVyc%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:28:56,910 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFksua7pVyc%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:28:57,912 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3559166309589933212/info/
+2025-02-19 09:28:58,301 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3559166309589933212/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:28:58,302 - InstagramBot - INFO - Liked post 3559166309589933212_52028782197 from #capixaba -> https://www.instagram.com/p/DFksua7pVyc/
+2025-02-19 09:29:29,304 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3548254465465705788/like/
+2025-02-19 09:29:31,108 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3548254465465705788/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:29:31,109 - InstagramBot - INFO - Performed likes action. Hourly: 3/20, Daily: 3/100
+2025-02-19 09:29:32,328 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DE97qMKxuU8%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:29:35,539 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DE97qMKxuU8%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:29:38,725 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DE97qMKxuU8%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:29:39,727 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3548254465465705788/info/
+2025-02-19 09:29:40,110 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3548254465465705788/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:29:40,123 - InstagramBot - INFO - Liked post 3548254465465705788_66458265153 from #capixaba -> https://www.instagram.com/p/DE97qMKxuU8/
+2025-02-19 09:30:11,125 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3560147449412229138/like/
+2025-02-19 09:30:11,543 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3560147449412229138/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:30:11,547 - InstagramBot - INFO - Performed likes action. Hourly: 4/20, Daily: 4/100
+2025-02-19 09:30:12,748 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFoLz4mOpgS%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:30:15,964 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFoLz4mOpgS%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:30:19,272 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFoLz4mOpgS%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:30:20,273 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3560147449412229138/info/
+2025-02-19 09:30:20,600 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3560147449412229138/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:30:20,601 - InstagramBot - INFO - Liked post 3560147449412229138_57635978686 from #capixaba -> https://www.instagram.com/p/DFoLz4mOpgS/
+2025-02-19 09:30:51,603 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571073172533162528/like/
+2025-02-19 09:30:52,022 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571073172533162528/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:30:52,022 - InstagramBot - INFO - Performed likes action. Hourly: 5/20, Daily: 5/100
+2025-02-19 09:30:53,238 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGPACFLxDIg%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:30:56,447 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGPACFLxDIg%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:30:59,651 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGPACFLxDIg%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:31:00,652 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571073172533162528/info/
+2025-02-19 09:31:00,960 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3571073172533162528/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:31:00,967 - InstagramBot - INFO - Liked post 3571073172533162528_12884769820 from #capixaba -> https://www.instagram.com/p/DGPACFLxDIg/
+2025-02-19 09:31:31,969 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570761364324824181/like/
+2025-02-19 09:31:33,254 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570761364324824181/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:31:33,265 - InstagramBot - INFO - Performed likes action. Hourly: 6/20, Daily: 6/100
+2025-02-19 09:31:34,468 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGN5IrKRTR1%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:31:37,671 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGN5IrKRTR1%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:31:40,882 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGN5IrKRTR1%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:31:41,884 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570761364324824181/info/
+2025-02-19 09:31:42,542 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3570761364324824181/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:31:42,543 - InstagramBot - INFO - Liked post 3570761364324824181_1606384431 from #capixaba -> https://www.instagram.com/p/DGN5IrKRTR1/
+2025-02-19 09:32:13,545 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3546335266316541325/like/
+2025-02-19 09:32:14,015 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3546335266316541325/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:32:14,015 - InstagramBot - INFO - Performed likes action. Hourly: 7/20, Daily: 7/100
+2025-02-19 09:32:15,207 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DE3HSKrPN2N%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:32:18,417 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DE3HSKrPN2N%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:32:21,619 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DE3HSKrPN2N%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:32:22,621 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3546335266316541325/info/
+2025-02-19 09:32:22,998 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3546335266316541325/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:32:22,999 - InstagramBot - INFO - Liked post 3546335266316541325_238145963 from #capixaba -> https://www.instagram.com/p/DE3HSKrPN2N/
+2025-02-19 09:32:54,001 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571034565046669933/like/
+2025-02-19 09:32:55,219 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571034565046669933/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:32:55,219 - InstagramBot - INFO - Performed likes action. Hourly: 8/20, Daily: 8/100
+2025-02-19 09:32:56,429 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGO3QRKP5Jt%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:32:59,636 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGO3QRKP5Jt%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:33:02,905 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGO3QRKP5Jt%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:33:03,907 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571034565046669933/info/
+2025-02-19 09:33:04,264 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3571034565046669933/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:33:04,265 - InstagramBot - INFO - Liked post 3571034565046669933_61017250225 from #capixaba -> https://www.instagram.com/p/DGO3QRKP5Jt/
+2025-02-19 09:33:35,267 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3560877272586524408/like/
+2025-02-19 09:33:35,786 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3560877272586524408/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:33:35,786 - InstagramBot - INFO - Performed likes action. Hourly: 9/20, Daily: 9/100
+2025-02-19 09:33:37,421 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFqxwNZSBb4%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:33:40,627 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFqxwNZSBb4%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:33:43,848 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFqxwNZSBb4%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:33:44,849 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3560877272586524408/info/
+2025-02-19 09:33:45,207 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3560877272586524408/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:33:45,209 - InstagramBot - INFO - Liked post 3560877272586524408_2086138192 from #capixaba -> https://www.instagram.com/p/DFqxwNZSBb4/
+2025-02-19 09:34:16,212 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571349079102024949/like/
+2025-02-19 09:34:17,867 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571349079102024949/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:34:17,868 - InstagramBot - INFO - Performed likes action. Hourly: 10/20, Daily: 10/100
+2025-02-19 09:34:19,123 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGP-xDMy2z1%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:34:22,303 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGP-xDMy2z1%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:34:25,491 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGP-xDMy2z1%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:34:26,492 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571349079102024949/info/
+2025-02-19 09:34:26,801 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3571349079102024949/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:34:26,802 - InstagramBot - INFO - Liked post 3571349079102024949_8365074641 from #capixaba -> https://www.instagram.com/p/DGP-xDMy2z1/
+2025-02-19 09:34:57,803 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3549319459581461405/like/
+2025-02-19 09:34:59,396 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3549319459581461405/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:34:59,397 - InstagramBot - INFO - Performed likes action. Hourly: 11/20, Daily: 11/100
+2025-02-19 09:35:00,614 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFBtz5OvAOd%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:35:03,812 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFBtz5OvAOd%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:35:07,002 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFBtz5OvAOd%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:35:08,004 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3549319459581461405/info/
+2025-02-19 09:35:08,451 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3549319459581461405/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:35:08,452 - InstagramBot - INFO - Liked post 3549319459581461405_58507529133 from #capixaba -> https://www.instagram.com/p/DFBtz5OvAOd/
+2025-02-19 09:35:39,454 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3565657754997937665/like/
+2025-02-19 09:35:41,102 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3565657754997937665/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:35:41,103 - InstagramBot - INFO - Performed likes action. Hourly: 12/20, Daily: 12/100
+2025-02-19 09:35:42,298 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DF7wtYlRNYB%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:35:45,497 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DF7wtYlRNYB%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:35:48,683 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DF7wtYlRNYB%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:35:49,685 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3565657754997937665/info/
+2025-02-19 09:35:50,031 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3565657754997937665/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:35:50,033 - InstagramBot - INFO - Liked post 3565657754997937665_326251043 from #capixaba -> https://www.instagram.com/p/DF7wtYlRNYB/
+2025-02-19 09:36:21,034 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571422941742130130/like/
+2025-02-19 09:36:23,156 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571422941742130130/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:36:23,156 - InstagramBot - INFO - Performed likes action. Hourly: 13/20, Daily: 13/100
+2025-02-19 09:36:24,353 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGQPj5JOGPS%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:36:27,568 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGQPj5JOGPS%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:36:30,761 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGQPj5JOGPS%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:36:31,763 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571422941742130130/info/
+2025-02-19 09:36:32,097 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3571422941742130130/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:36:32,097 - InstagramBot - INFO - Liked post 3571422941742130130_9466809611 from #capixaba -> https://www.instagram.com/p/DGQPj5JOGPS/
+2025-02-19 09:37:03,100 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3562063231134976703/like/
+2025-02-19 09:37:04,056 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3562063231134976703/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:37:04,056 - InstagramBot - INFO - Performed likes action. Hourly: 14/20, Daily: 14/100
+2025-02-19 09:37:05,284 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFu_aLXR8q_%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:37:08,482 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFu_aLXR8q_%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:37:11,672 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DFu_aLXR8q_%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:37:12,680 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3562063231134976703/info/
+2025-02-19 09:37:13,070 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3562063231134976703/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:37:13,078 - InstagramBot - INFO - Liked post 3562063231134976703_248562114 from #capixaba -> https://www.instagram.com/p/DFu_aLXR8q_/
+2025-02-19 09:37:44,081 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3543476206823976914/like/
+2025-02-19 09:37:45,508 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3543476206823976914/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:37:45,511 - InstagramBot - INFO - Performed likes action. Hourly: 15/20, Daily: 15/100
+2025-02-19 09:37:46,725 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DEs9NYByq_S%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:37:49,955 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DEs9NYByq_S%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:37:53,176 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DEs9NYByq_S%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:37:54,177 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3543476206823976914/info/
+2025-02-19 09:37:54,637 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3543476206823976914/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:37:54,638 - InstagramBot - INFO - Liked post 3543476206823976914_5513534126 from #capixaba -> https://www.instagram.com/p/DEs9NYByq_S/
+2025-02-19 09:38:24,651 - InstagramBot - INFO - Successfully liked 15 posts from #capixaba
+2025-02-19 09:38:54,653 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 09:41:03,858 - InstagramBot - INFO - Bot stopped manually.
+2025-02-19 09:41:04,860 - instagrapi - INFO - https://i.instagram.com/api/v1/accounts/logout/
+2025-02-19 09:44:31,720 - InstagramBot - INFO - Attempting to authenticate with Instagram
+2025-02-19 09:44:31,721 - instagrapi - INFO - https://i.instagram.com/api/v1/launcher/sync/
+2025-02-19 09:44:32,169 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/launcher/sync/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:44:32,438 - instagrapi - INFO - https://i.instagram.com/api/v1/accounts/login/
+2025-02-19 09:44:36,813 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/accounts/login/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:44:37,815 - instagrapi - INFO - https://i.instagram.com/api/v1/feed/reels_tray/
+2025-02-19 09:44:38,841 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/feed/reels_tray/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:44:39,843 - instagrapi - INFO - https://i.instagram.com/api/v1/feed/timeline/
+2025-02-19 09:44:43,052 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/feed/timeline/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:44:43,055 - InstagramBot - INFO - Successfully authenticated with Instagram
+2025-02-19 09:44:44,470 - public_request - INFO - [None] [201] GET https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis
+2025-02-19 09:44:44,472 - public_request - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis) >>> 
+2025-02-19 09:44:47,658 - public_request - INFO - [None] [201] GET https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis
+2025-02-19 09:44:47,658 - public_request - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis) >>> 
+2025-02-19 09:44:50,868 - public_request - INFO - [None] [201] GET https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis
+2025-02-19 09:44:50,869 - public_request - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/alexandrequeirozmd/?__a=1&__d=dis) >>> 
+2025-02-19 09:44:51,871 - instagrapi - INFO - https://i.instagram.com/api/v1/users/alexandrequeirozmd/usernameinfo/
+2025-02-19 09:44:52,360 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/users/alexandrequeirozmd/usernameinfo/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:44:52,361 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 09:45:22,361 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 09:45:23,552 - public_request - INFO - [None] [404] GET https://www.instagram.com/explore/tags/espiritosanto/?__a=1&__d=dis
+2025-02-19 09:45:24,553 - instagrapi - INFO - https://i.instagram.com/api/v1/tags/espiritosanto/sections/
+2025-02-19 09:45:27,159 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/tags/espiritosanto/sections/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:45:28,170 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571113624690240321/like/
+2025-02-19 09:45:28,896 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571113624690240321/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:45:28,897 - InstagramBot - INFO - Performed likes action. Hourly: 1/20, Daily: 1/100
+2025-02-19 09:45:30,132 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGPJOvMOCtB%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:45:33,343 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGPJOvMOCtB%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:45:36,544 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGPJOvMOCtB%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:45:37,546 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571113624690240321/info/
+2025-02-19 09:45:38,053 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3571113624690240321/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:45:38,056 - InstagramBot - INFO - Liked post 3571113624690240321_52710064 from #espiritosanto -> https://www.instagram.com/p/DGPJOvMOCtB/
+2025-02-19 09:46:09,058 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570060685489588339/like/
+2025-02-19 09:46:09,714 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570060685489588339/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:46:09,715 - InstagramBot - INFO - Performed likes action. Hourly: 2/20, Daily: 2/100
+2025-02-19 09:46:10,945 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGLZ0dJMchz%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:46:14,154 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGLZ0dJMchz%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:46:17,404 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGLZ0dJMchz%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:46:18,406 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570060685489588339/info/
+2025-02-19 09:46:18,717 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3570060685489588339/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:46:18,719 - InstagramBot - INFO - Liked post 3570060685489588339_29419162708 from #espiritosanto -> https://www.instagram.com/p/DGLZ0dJMchz/
+2025-02-19 09:46:49,720 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570966577492532541/like/
+2025-02-19 09:46:50,433 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570966577492532541/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:46:50,433 - InstagramBot - INFO - Performed likes action. Hourly: 3/20, Daily: 3/100
+2025-02-19 09:46:51,617 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGOny60PB09%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:46:54,975 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGOny60PB09%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:46:58,198 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGOny60PB09%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:46:59,199 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570966577492532541/info/
+2025-02-19 09:46:59,511 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3570966577492532541/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:46:59,525 - InstagramBot - INFO - Liked post 3570966577492532541_29419162708 from #espiritosanto -> https://www.instagram.com/p/DGOny60PB09/
+2025-02-19 09:47:30,526 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570807064420354739/like/
+2025-02-19 09:47:31,466 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570807064420354739/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:47:31,480 - InstagramBot - INFO - Performed likes action. Hourly: 4/20, Daily: 4/100
+2025-02-19 09:47:32,703 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGODhssOwqz%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:47:35,907 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGODhssOwqz%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:47:39,104 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGODhssOwqz%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:47:40,107 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570807064420354739/info/
+2025-02-19 09:47:40,602 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3570807064420354739/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:47:40,604 - InstagramBot - INFO - Liked post 3570807064420354739_59112408377 from #espiritosanto -> https://www.instagram.com/p/DGODhssOwqz/
+2025-02-19 09:48:11,606 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570364185109401567/like/
+2025-02-19 09:48:12,435 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570364185109401567/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:48:12,435 - InstagramBot - INFO - Performed likes action. Hourly: 5/20, Daily: 5/100
+2025-02-19 09:48:13,654 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGMe09MOQ_f%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:48:16,868 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGMe09MOQ_f%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:48:20,062 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGMe09MOQ_f%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:48:21,063 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570364185109401567/info/
+2025-02-19 09:48:21,343 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3570364185109401567/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:48:21,343 - InstagramBot - INFO - Liked post 3570364185109401567_52710064 from #espiritosanto -> https://www.instagram.com/p/DGMe09MOQ_f/
+2025-02-19 09:48:52,347 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570248434710112457/like/
+2025-02-19 09:48:53,288 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570248434710112457/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:48:53,288 - InstagramBot - INFO - Performed likes action. Hourly: 6/20, Daily: 6/100
+2025-02-19 09:48:54,538 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGMEgkOymjJ%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:48:57,758 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGMEgkOymjJ%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:49:00,966 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGMEgkOymjJ%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:49:01,969 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570248434710112457/info/
+2025-02-19 09:49:02,333 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3570248434710112457/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:49:02,336 - InstagramBot - INFO - Liked post 3570248434710112457_45037219120 from #espiritosanto -> https://www.instagram.com/p/DGMEgkOymjJ/
+2025-02-19 09:49:33,338 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571422266627004687/like/
+2025-02-19 09:49:34,597 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571422266627004687/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:49:34,597 - InstagramBot - INFO - Performed likes action. Hourly: 7/20, Daily: 7/100
+2025-02-19 09:49:35,785 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGQPaEZORkP%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:49:38,996 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGQPaEZORkP%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:49:42,236 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGQPaEZORkP%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:49:43,239 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571422266627004687/info/
+2025-02-19 09:49:43,624 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3571422266627004687/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:49:43,624 - InstagramBot - INFO - Liked post 3571422266627004687_53140292666 from #espiritosanto -> https://www.instagram.com/p/DGQPaEZORkP/
+2025-02-19 09:50:14,628 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570581739639579177/like/
+2025-02-19 09:50:15,532 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570581739639579177/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:50:15,535 - InstagramBot - INFO - Performed likes action. Hourly: 8/20, Daily: 8/100
+2025-02-19 09:50:16,834 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGNQSyotqIp%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:50:20,068 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGNQSyotqIp%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:50:23,272 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGNQSyotqIp%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:50:24,274 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570581739639579177/info/
+2025-02-19 09:50:24,682 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3570581739639579177/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:50:24,683 - InstagramBot - INFO - Liked post 3570581739639579177_326341103 from #espiritosanto -> https://www.instagram.com/p/DGNQSyotqIp/
+2025-02-19 09:50:55,685 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571306472009960268/like/
+2025-02-19 09:50:56,517 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571306472009960268/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:50:56,517 - InstagramBot - INFO - Performed likes action. Hourly: 9/20, Daily: 9/100
+2025-02-19 09:50:57,741 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGP1FCQNQtM%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:51:00,938 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGP1FCQNQtM%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:51:04,167 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGP1FCQNQtM%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:51:05,169 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571306472009960268/info/
+2025-02-19 09:51:05,479 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3571306472009960268/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:51:05,481 - InstagramBot - INFO - Liked post 3571306472009960268_326341103 from #espiritosanto -> https://www.instagram.com/p/DGP1FCQNQtM/
+2025-02-19 09:51:36,483 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570284948540085928/like/
+2025-02-19 09:51:38,716 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570284948540085928/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:51:38,716 - InstagramBot - INFO - Performed likes action. Hourly: 10/20, Daily: 10/100
+2025-02-19 09:51:39,908 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGMMz6Yp9ao%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:51:43,129 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGMMz6Yp9ao%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:51:46,361 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGMMz6Yp9ao%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:51:47,363 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570284948540085928/info/
+2025-02-19 09:51:47,995 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3570284948540085928/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:51:47,995 - InstagramBot - INFO - Liked post 3570284948540085928_67004683955 from #espiritosanto -> https://www.instagram.com/p/DGMMz6Yp9ao/
+2025-02-19 09:52:19,000 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568888331955515222/like/
+2025-02-19 09:52:19,661 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3568888331955515222/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:52:19,661 - InstagramBot - INFO - Performed likes action. Hourly: 11/20, Daily: 11/100
+2025-02-19 09:52:20,879 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGHPQd1Pq9W%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:52:24,081 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGHPQd1Pq9W%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:52:27,336 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGHPQd1Pq9W%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:52:28,340 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568888331955515222/info/
+2025-02-19 09:52:28,820 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3568888331955515222/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:52:28,821 - InstagramBot - INFO - Liked post 3568888331955515222_59112408377 from #espiritosanto -> https://www.instagram.com/p/DGHPQd1Pq9W/
+2025-02-19 09:52:59,824 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570337577592819078/like/
+2025-02-19 09:53:00,630 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570337577592819078/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:53:00,632 - InstagramBot - INFO - Performed likes action. Hourly: 12/20, Daily: 12/100
+2025-02-19 09:53:01,843 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGMYxxApg2G%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:53:05,042 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGMYxxApg2G%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:53:08,250 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGMYxxApg2G%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:53:09,252 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570337577592819078/info/
+2025-02-19 09:53:09,645 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3570337577592819078/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:53:09,648 - InstagramBot - INFO - Liked post 3570337577592819078_226684872 from #espiritosanto -> https://www.instagram.com/p/DGMYxxApg2G/
+2025-02-19 09:53:40,649 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571009536972730239/like/
+2025-02-19 09:53:41,729 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571009536972730239/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:53:41,737 - InstagramBot - INFO - Performed likes action. Hourly: 13/20, Daily: 13/100
+2025-02-19 09:53:42,928 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGOxkD8yq9_%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:53:46,149 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGOxkD8yq9_%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:53:49,356 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGOxkD8yq9_%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:53:50,358 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571009536972730239/info/
+2025-02-19 09:53:50,633 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3571009536972730239/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:53:50,642 - InstagramBot - INFO - Liked post 3571009536972730239_72151236190 from #espiritosanto -> https://www.instagram.com/p/DGOxkD8yq9_/
+2025-02-19 09:54:21,644 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570713313488183971/like/
+2025-02-19 09:54:22,885 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570713313488183971/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:54:22,885 - InstagramBot - INFO - Performed likes action. Hourly: 14/20, Daily: 14/100
+2025-02-19 09:54:24,163 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGNuNcVOKKj%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:54:27,374 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGNuNcVOKKj%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:54:30,570 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGNuNcVOKKj%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:54:31,571 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570713313488183971/info/
+2025-02-19 09:54:32,044 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3570713313488183971/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:54:32,045 - InstagramBot - INFO - Liked post 3570713313488183971_36595189702 from #espiritosanto -> https://www.instagram.com/p/DGNuNcVOKKj/
+2025-02-19 09:55:03,048 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568141384587923988/like/
+2025-02-19 09:55:04,242 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3568141384587923988/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:55:04,242 - InstagramBot - INFO - Performed likes action. Hourly: 15/20, Daily: 15/100
+2025-02-19 09:55:05,453 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGEla84u9IU%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:55:08,680 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGEla84u9IU%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:55:11,892 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGEla84u9IU%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 09:55:12,894 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568141384587923988/info/
+2025-02-19 09:55:13,226 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3568141384587923988/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 09:55:13,226 - InstagramBot - INFO - Liked post 3568141384587923988_52710064 from #espiritosanto -> https://www.instagram.com/p/DGEla84u9IU/
+2025-02-19 09:55:43,230 - InstagramBot - INFO - Successfully liked 15 posts from #espiritosanto
+2025-02-19 09:56:13,231 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 10:01:13,231 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 10:01:43,233 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 10:01:44,514 - public_request - INFO - [None] [404] GET https://www.instagram.com/explore/tags/espiritosanto/?__a=1&__d=dis
+2025-02-19 10:01:45,515 - instagrapi - INFO - https://i.instagram.com/api/v1/tags/espiritosanto/sections/
+2025-02-19 10:01:48,581 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/tags/espiritosanto/sections/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 10:01:49,593 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570966577492532541/like/
+2025-02-19 10:01:50,094 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570966577492532541/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 10:01:50,095 - InstagramBot - INFO - Performed likes action. Hourly: 16/20, Daily: 16/100
+2025-02-19 10:01:50,096 - InstagramBot - INFO - Liked post 3570966577492532541_29419162708 from #espiritosanto -> https://www.instagram.com/p/DGOny60PB09/
+2025-02-19 10:02:21,098 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570807064420354739/like/
+2025-02-19 10:02:21,762 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570807064420354739/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 10:02:21,763 - InstagramBot - INFO - Performed likes action. Hourly: 17/20, Daily: 17/100
+2025-02-19 10:02:21,763 - InstagramBot - INFO - Liked post 3570807064420354739_59112408377 from #espiritosanto -> https://www.instagram.com/p/DGODhssOwqz/
+2025-02-19 10:02:52,766 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570364185109401567/like/
+2025-02-19 10:02:53,240 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570364185109401567/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 10:02:53,241 - InstagramBot - INFO - Performed likes action. Hourly: 18/20, Daily: 18/100
+2025-02-19 10:02:53,242 - InstagramBot - INFO - Liked post 3570364185109401567_52710064 from #espiritosanto -> https://www.instagram.com/p/DGMe09MOQ_f/
+2025-02-19 10:03:24,244 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570581739639579177/like/
+2025-02-19 10:03:24,812 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570581739639579177/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 10:03:24,813 - InstagramBot - INFO - Performed likes action. Hourly: 19/20, Daily: 19/100
+2025-02-19 10:03:24,814 - InstagramBot - INFO - Liked post 3570581739639579177_326341103 from #espiritosanto -> https://www.instagram.com/p/DGNQSyotqIp/
+2025-02-19 10:03:55,815 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568888331955515222/like/
+2025-02-19 10:03:56,362 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3568888331955515222/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 10:03:56,363 - InstagramBot - INFO - Performed likes action. Hourly: 20/20, Daily: 20/100
+2025-02-19 10:03:56,363 - InstagramBot - INFO - Liked post 3568888331955515222_59112408377 from #espiritosanto -> https://www.instagram.com/p/DGHPQd1Pq9W/
+2025-02-19 10:04:26,365 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 10:04:26,365 - InstagramBot - WARNING - Like limit reached during execution
+2025-02-19 10:04:26,365 - InstagramBot - INFO - Successfully liked 5 posts from #espiritosanto
+2025-02-19 10:04:56,367 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 10:09:56,368 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 10:10:26,369 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 10:10:26,370 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 10:10:26,370 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 10:10:56,371 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 10:15:56,372 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 10:16:26,373 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 10:16:26,374 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 10:16:26,374 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 10:16:56,375 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 10:21:56,376 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 10:22:26,377 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 10:22:26,377 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 10:22:26,377 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 10:22:56,379 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 10:27:56,380 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 10:28:26,381 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 10:28:26,381 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 10:28:26,382 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 10:28:56,383 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 10:33:56,384 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 10:34:26,385 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 10:34:26,385 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 10:34:26,386 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 10:34:56,386 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 10:39:56,387 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 10:40:26,388 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 10:40:26,388 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 10:40:26,388 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 10:40:56,390 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 10:45:56,391 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 10:46:26,392 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 10:46:26,392 - InstagramBot - INFO - Reset hourly likes counter
+2025-02-19 10:46:26,393 - InstagramBot - INFO - Reset hourly follows counter
+2025-02-19 10:46:27,714 - public_request - INFO - [None] [404] GET https://www.instagram.com/explore/tags/espiritosanto/?__a=1&__d=dis
+2025-02-19 10:46:28,715 - instagrapi - INFO - https://i.instagram.com/api/v1/tags/espiritosanto/sections/
+2025-02-19 10:46:30,670 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/tags/espiritosanto/sections/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 10:46:31,682 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570966577492532541/like/
+2025-02-19 10:46:32,285 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570966577492532541/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 10:46:32,285 - InstagramBot - INFO - Performed likes action. Hourly: 1/20, Daily: 21/100
+2025-02-19 10:46:32,287 - InstagramBot - INFO - Liked post 3570966577492532541_29419162708 from #espiritosanto -> https://www.instagram.com/p/DGOny60PB09/
+2025-02-19 10:47:03,289 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570807064420354739/like/
+2025-02-19 10:47:03,816 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570807064420354739/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 10:47:03,816 - InstagramBot - INFO - Performed likes action. Hourly: 2/20, Daily: 22/100
+2025-02-19 10:47:03,817 - InstagramBot - INFO - Liked post 3570807064420354739_59112408377 from #espiritosanto -> https://www.instagram.com/p/DGODhssOwqz/
+2025-02-19 10:47:34,819 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571113624690240321/like/
+2025-02-19 10:47:35,273 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571113624690240321/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 10:47:35,274 - InstagramBot - INFO - Performed likes action. Hourly: 3/20, Daily: 23/100
+2025-02-19 10:47:35,275 - InstagramBot - INFO - Liked post 3571113624690240321_52710064 from #espiritosanto -> https://www.instagram.com/p/DGPJOvMOCtB/
+2025-02-19 10:48:06,277 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570364185109401567/like/
+2025-02-19 10:48:06,783 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570364185109401567/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 10:48:06,784 - InstagramBot - INFO - Performed likes action. Hourly: 4/20, Daily: 24/100
+2025-02-19 10:48:06,785 - InstagramBot - INFO - Liked post 3570364185109401567_52710064 from #espiritosanto -> https://www.instagram.com/p/DGMe09MOQ_f/
+2025-02-19 10:48:37,786 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570581739639579177/like/
+2025-02-19 10:48:38,245 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570581739639579177/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 10:48:38,247 - InstagramBot - INFO - Performed likes action. Hourly: 5/20, Daily: 25/100
+2025-02-19 10:48:38,248 - InstagramBot - INFO - Liked post 3570581739639579177_326341103 from #espiritosanto -> https://www.instagram.com/p/DGNQSyotqIp/
+2025-02-19 10:49:09,249 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568888331955515222/like/
+2025-02-19 10:49:09,760 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3568888331955515222/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 10:49:09,760 - InstagramBot - INFO - Performed likes action. Hourly: 6/20, Daily: 26/100
+2025-02-19 10:49:09,761 - InstagramBot - INFO - Liked post 3568888331955515222_59112408377 from #espiritosanto -> https://www.instagram.com/p/DGHPQd1Pq9W/
+2025-02-19 10:49:40,764 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570337577592819078/like/
+2025-02-19 10:49:41,259 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570337577592819078/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 10:49:41,259 - InstagramBot - INFO - Performed likes action. Hourly: 7/20, Daily: 27/100
+2025-02-19 10:49:41,260 - InstagramBot - INFO - Liked post 3570337577592819078_226684872 from #espiritosanto -> https://www.instagram.com/p/DGMYxxApg2G/
+2025-02-19 10:50:12,262 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568141384587923988/like/
+2025-02-19 10:50:12,814 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3568141384587923988/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 10:50:12,816 - InstagramBot - INFO - Performed likes action. Hourly: 8/20, Daily: 28/100
+2025-02-19 10:50:12,817 - InstagramBot - INFO - Liked post 3568141384587923988_52710064 from #espiritosanto -> https://www.instagram.com/p/DGEla84u9IU/
+2025-02-19 10:50:43,819 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570284948540085928/like/
+2025-02-19 10:50:44,320 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570284948540085928/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 10:50:44,320 - InstagramBot - INFO - Performed likes action. Hourly: 9/20, Daily: 29/100
+2025-02-19 10:50:44,322 - InstagramBot - INFO - Liked post 3570284948540085928_67004683955 from #espiritosanto -> https://www.instagram.com/p/DGMMz6Yp9ao/
+2025-02-19 10:51:15,323 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571422266627004687/like/
+2025-02-19 10:51:15,889 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571422266627004687/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 10:51:15,890 - InstagramBot - INFO - Performed likes action. Hourly: 10/20, Daily: 30/100
+2025-02-19 10:51:15,891 - InstagramBot - INFO - Liked post 3571422266627004687_53140292666 from #espiritosanto -> https://www.instagram.com/p/DGQPaEZORkP/
+2025-02-19 10:51:46,892 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570971357539488192/like/
+2025-02-19 10:51:47,750 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570971357539488192/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 10:51:47,750 - InstagramBot - INFO - Performed likes action. Hourly: 11/20, Daily: 31/100
+2025-02-19 10:51:49,043 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGOo4elPFHA%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 10:51:52,249 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGOo4elPFHA%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 10:51:55,462 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGOo4elPFHA%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 10:51:56,463 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570971357539488192/info/
+2025-02-19 10:51:56,895 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3570971357539488192/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 10:51:56,897 - InstagramBot - INFO - Liked post 3570971357539488192_59112408377 from #espiritosanto -> https://www.instagram.com/p/DGOo4elPFHA/
+2025-02-19 10:52:27,899 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568192578877959068/like/
+2025-02-19 10:52:28,900 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3568192578877959068/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 10:52:28,900 - InstagramBot - INFO - Performed likes action. Hourly: 12/20, Daily: 32/100
+2025-02-19 10:52:30,110 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGExD7SNKuc%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 10:52:33,320 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGExD7SNKuc%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 10:52:36,527 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGExD7SNKuc%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 10:52:37,529 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568192578877959068/info/
+2025-02-19 10:52:37,833 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3568192578877959068/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 10:52:37,835 - InstagramBot - INFO - Liked post 3568192578877959068_56531812714 from #espiritosanto -> https://www.instagram.com/p/DGExD7SNKuc/
+2025-02-19 10:53:08,837 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570713313488183971/like/
+2025-02-19 10:53:09,691 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570713313488183971/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 10:53:09,691 - InstagramBot - INFO - Performed likes action. Hourly: 13/20, Daily: 33/100
+2025-02-19 10:53:09,692 - InstagramBot - INFO - Liked post 3570713313488183971_36595189702 from #espiritosanto -> https://www.instagram.com/p/DGNuNcVOKKj/
+2025-02-19 10:53:40,694 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3566019817007479572/like/
+2025-02-19 10:53:41,800 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3566019817007479572/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 10:53:41,801 - InstagramBot - INFO - Performed likes action. Hourly: 14/20, Daily: 34/100
+2025-02-19 10:53:43,001 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DF9DCFGu_sU%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 10:53:46,296 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DF9DCFGu_sU%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 10:53:49,552 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DF9DCFGu_sU%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 10:53:50,554 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3566019817007479572/info/
+2025-02-19 10:53:50,941 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3566019817007479572/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 10:53:50,944 - InstagramBot - INFO - Liked post 3566019817007479572_52710064 from #espiritosanto -> https://www.instagram.com/p/DF9DCFGu_sU/
+2025-02-19 10:54:21,946 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571009536972730239/like/
+2025-02-19 10:54:22,466 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571009536972730239/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 10:54:22,467 - InstagramBot - INFO - Performed likes action. Hourly: 15/20, Daily: 35/100
+2025-02-19 10:54:22,469 - InstagramBot - INFO - Liked post 3571009536972730239_72151236190 from #espiritosanto -> https://www.instagram.com/p/DGOxkD8yq9_/
+2025-02-19 10:54:52,469 - InstagramBot - INFO - Successfully liked 15 posts from #espiritosanto
+2025-02-19 10:55:22,470 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 11:00:22,471 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 11:00:52,472 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 11:00:53,776 - public_request - INFO - [None] [404] GET https://www.instagram.com/explore/tags/espiritosanto/?__a=1&__d=dis
+2025-02-19 11:00:54,778 - instagrapi - INFO - https://i.instagram.com/api/v1/tags/espiritosanto/sections/
+2025-02-19 11:00:57,815 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/tags/espiritosanto/sections/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 11:00:58,825 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570966577492532541/like/
+2025-02-19 11:00:59,360 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570966577492532541/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 11:00:59,360 - InstagramBot - INFO - Performed likes action. Hourly: 16/20, Daily: 36/100
+2025-02-19 11:00:59,361 - InstagramBot - INFO - Liked post 3570966577492532541_29419162708 from #espiritosanto -> https://www.instagram.com/p/DGOny60PB09/
+2025-02-19 11:01:30,364 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570807064420354739/like/
+2025-02-19 11:01:30,896 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570807064420354739/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 11:01:30,897 - InstagramBot - INFO - Performed likes action. Hourly: 17/20, Daily: 37/100
+2025-02-19 11:01:30,897 - InstagramBot - INFO - Liked post 3570807064420354739_59112408377 from #espiritosanto -> https://www.instagram.com/p/DGODhssOwqz/
+2025-02-19 11:02:01,900 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570364185109401567/like/
+2025-02-19 11:02:02,430 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570364185109401567/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 11:02:02,431 - InstagramBot - INFO - Performed likes action. Hourly: 18/20, Daily: 38/100
+2025-02-19 11:02:02,431 - InstagramBot - INFO - Liked post 3570364185109401567_52710064 from #espiritosanto -> https://www.instagram.com/p/DGMe09MOQ_f/
+2025-02-19 11:02:33,434 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571113624690240321/like/
+2025-02-19 11:02:34,065 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571113624690240321/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 11:02:34,066 - InstagramBot - INFO - Performed likes action. Hourly: 19/20, Daily: 39/100
+2025-02-19 11:02:34,067 - InstagramBot - INFO - Liked post 3571113624690240321_52710064 from #espiritosanto -> https://www.instagram.com/p/DGPJOvMOCtB/
+2025-02-19 11:03:05,069 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568888331955515222/like/
+2025-02-19 11:03:05,696 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3568888331955515222/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 11:03:05,696 - InstagramBot - INFO - Performed likes action. Hourly: 20/20, Daily: 40/100
+2025-02-19 11:03:05,698 - InstagramBot - INFO - Liked post 3568888331955515222_59112408377 from #espiritosanto -> https://www.instagram.com/p/DGHPQd1Pq9W/
+2025-02-19 11:03:35,698 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 11:03:35,698 - InstagramBot - WARNING - Like limit reached during execution
+2025-02-19 11:03:35,698 - InstagramBot - INFO - Successfully liked 5 posts from #espiritosanto
+2025-02-19 11:04:05,700 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 11:09:05,701 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 11:09:35,702 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 11:09:35,703 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 11:09:35,703 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 11:10:05,704 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 11:15:05,705 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 11:15:35,707 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 11:15:35,708 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 11:15:35,708 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 11:16:05,708 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 11:21:05,709 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 11:21:35,711 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 11:21:35,711 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 11:21:35,711 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 11:22:05,712 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 11:27:05,714 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 11:27:35,715 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 11:27:35,715 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 11:27:35,715 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 11:28:05,716 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 11:33:05,717 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 11:33:35,718 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 11:33:35,718 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 11:33:35,718 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 11:34:05,719 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 11:39:05,720 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 11:39:35,721 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 11:39:35,721 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 11:39:35,721 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 11:40:05,722 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 11:45:05,724 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 11:45:35,725 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 11:45:35,726 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 11:45:35,726 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 11:46:05,727 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 11:51:05,729 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 11:51:35,730 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 11:51:35,731 - InstagramBot - INFO - Reset hourly likes counter
+2025-02-19 11:51:35,731 - InstagramBot - INFO - Reset hourly follows counter
+2025-02-19 11:51:37,366 - public_request - INFO - [None] [404] GET https://www.instagram.com/explore/tags/espiritosanto/?__a=1&__d=dis
+2025-02-19 11:51:38,368 - instagrapi - INFO - https://i.instagram.com/api/v1/tags/espiritosanto/sections/
+2025-02-19 11:51:40,967 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/tags/espiritosanto/sections/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 11:51:41,978 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570807064420354739/like/
+2025-02-19 11:51:42,464 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570807064420354739/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 11:51:42,465 - InstagramBot - INFO - Performed likes action. Hourly: 1/20, Daily: 41/100
+2025-02-19 11:51:42,477 - InstagramBot - INFO - Liked post 3570807064420354739_59112408377 from #espiritosanto -> https://www.instagram.com/p/DGODhssOwqz/
+2025-02-19 11:52:13,479 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570364185109401567/like/
+2025-02-19 11:52:14,002 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570364185109401567/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 11:52:14,002 - InstagramBot - INFO - Performed likes action. Hourly: 2/20, Daily: 42/100
+2025-02-19 11:52:14,003 - InstagramBot - INFO - Liked post 3570364185109401567_52710064 from #espiritosanto -> https://www.instagram.com/p/DGMe09MOQ_f/
+2025-02-19 11:52:45,005 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571113624690240321/like/
+2025-02-19 11:52:45,499 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571113624690240321/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 11:52:45,500 - InstagramBot - INFO - Performed likes action. Hourly: 3/20, Daily: 43/100
+2025-02-19 11:52:45,500 - InstagramBot - INFO - Liked post 3571113624690240321_52710064 from #espiritosanto -> https://www.instagram.com/p/DGPJOvMOCtB/
+2025-02-19 11:53:16,503 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570581739639579177/like/
+2025-02-19 11:53:17,708 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570581739639579177/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 11:53:17,709 - InstagramBot - INFO - Performed likes action. Hourly: 4/20, Daily: 44/100
+2025-02-19 11:53:17,709 - InstagramBot - INFO - Liked post 3570581739639579177_326341103 from #espiritosanto -> https://www.instagram.com/p/DGNQSyotqIp/
+2025-02-19 11:53:48,713 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568888331955515222/like/
+2025-02-19 11:53:49,159 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3568888331955515222/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 11:53:49,159 - InstagramBot - INFO - Performed likes action. Hourly: 5/20, Daily: 45/100
+2025-02-19 11:53:49,161 - InstagramBot - INFO - Liked post 3568888331955515222_59112408377 from #espiritosanto -> https://www.instagram.com/p/DGHPQd1Pq9W/
+2025-02-19 11:54:20,163 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570337577592819078/like/
+2025-02-19 11:54:20,599 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570337577592819078/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 11:54:20,601 - InstagramBot - INFO - Performed likes action. Hourly: 6/20, Daily: 46/100
+2025-02-19 11:54:20,602 - InstagramBot - INFO - Liked post 3570337577592819078_226684872 from #espiritosanto -> https://www.instagram.com/p/DGMYxxApg2G/
+2025-02-19 11:54:51,604 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570284948540085928/like/
+2025-02-19 11:54:52,182 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570284948540085928/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 11:54:52,183 - InstagramBot - INFO - Performed likes action. Hourly: 7/20, Daily: 47/100
+2025-02-19 11:54:52,183 - InstagramBot - INFO - Liked post 3570284948540085928_67004683955 from #espiritosanto -> https://www.instagram.com/p/DGMMz6Yp9ao/
+2025-02-19 11:55:23,186 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568192578877959068/like/
+2025-02-19 11:55:23,602 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3568192578877959068/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 11:55:23,602 - InstagramBot - INFO - Performed likes action. Hourly: 8/20, Daily: 48/100
+2025-02-19 11:55:23,603 - InstagramBot - INFO - Liked post 3568192578877959068_56531812714 from #espiritosanto -> https://www.instagram.com/p/DGExD7SNKuc/
+2025-02-19 11:55:54,605 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568141384587923988/like/
+2025-02-19 11:55:55,119 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3568141384587923988/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 11:55:55,119 - InstagramBot - INFO - Performed likes action. Hourly: 9/20, Daily: 49/100
+2025-02-19 11:55:55,120 - InstagramBot - INFO - Liked post 3568141384587923988_52710064 from #espiritosanto -> https://www.instagram.com/p/DGEla84u9IU/
+2025-02-19 11:56:26,122 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571422266627004687/like/
+2025-02-19 11:56:26,699 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571422266627004687/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 11:56:26,699 - InstagramBot - INFO - Performed likes action. Hourly: 10/20, Daily: 50/100
+2025-02-19 11:56:26,700 - InstagramBot - INFO - Liked post 3571422266627004687_53140292666 from #espiritosanto -> https://www.instagram.com/p/DGQPaEZORkP/
+2025-02-19 11:56:57,702 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571470798063118046/like/
+2025-02-19 11:56:58,698 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571470798063118046/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 11:56:58,699 - InstagramBot - INFO - Performed likes action. Hourly: 11/20, Daily: 51/100
+2025-02-19 11:56:59,975 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGQacS0O6be%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 11:57:03,238 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGQacS0O6be%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 11:57:06,468 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGQacS0O6be%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 11:57:07,471 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571470798063118046/info/
+2025-02-19 11:57:07,886 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3571470798063118046/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 11:57:07,888 - InstagramBot - INFO - Liked post 3571470798063118046_51444457817 from #espiritosanto -> https://www.instagram.com/p/DGQacS0O6be/
+2025-02-19 11:57:38,889 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570713313488183971/like/
+2025-02-19 11:57:39,329 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570713313488183971/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 11:57:39,330 - InstagramBot - INFO - Performed likes action. Hourly: 12/20, Daily: 52/100
+2025-02-19 11:57:39,331 - InstagramBot - INFO - Liked post 3570713313488183971_36595189702 from #espiritosanto -> https://www.instagram.com/p/DGNuNcVOKKj/
+2025-02-19 11:58:10,332 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570971357539488192/like/
+2025-02-19 11:58:10,869 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570971357539488192/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 11:58:10,870 - InstagramBot - INFO - Performed likes action. Hourly: 13/20, Daily: 53/100
+2025-02-19 11:58:10,871 - InstagramBot - INFO - Liked post 3570971357539488192_59112408377 from #espiritosanto -> https://www.instagram.com/p/DGOo4elPFHA/
+2025-02-19 11:58:41,873 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3566019817007479572/like/
+2025-02-19 11:58:42,360 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3566019817007479572/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 11:58:42,360 - InstagramBot - INFO - Performed likes action. Hourly: 14/20, Daily: 54/100
+2025-02-19 11:58:42,362 - InstagramBot - INFO - Liked post 3566019817007479572_52710064 from #espiritosanto -> https://www.instagram.com/p/DF9DCFGu_sU/
+2025-02-19 11:59:13,363 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3569303231214987390/like/
+2025-02-19 11:59:14,208 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3569303231214987390/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 11:59:14,208 - InstagramBot - INFO - Performed likes action. Hourly: 15/20, Daily: 55/100
+2025-02-19 11:59:15,487 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGItmC4OSh-%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 11:59:18,747 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGItmC4OSh-%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 11:59:21,969 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGItmC4OSh-%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 11:59:22,971 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3569303231214987390/info/
+2025-02-19 11:59:23,332 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3569303231214987390/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 11:59:23,334 - InstagramBot - INFO - Liked post 3569303231214987390_57151326164 from #espiritosanto -> https://www.instagram.com/p/DGItmC4OSh-/
+2025-02-19 11:59:53,336 - InstagramBot - INFO - Successfully liked 15 posts from #espiritosanto
+2025-02-19 12:00:23,337 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 12:05:23,338 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 12:05:53,339 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 12:05:54,626 - public_request - INFO - [None] [404] GET https://www.instagram.com/explore/tags/espiritosanto/?__a=1&__d=dis
+2025-02-19 12:05:55,628 - instagrapi - INFO - https://i.instagram.com/api/v1/tags/espiritosanto/sections/
+2025-02-19 12:05:58,392 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/tags/espiritosanto/sections/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 12:05:59,402 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570364185109401567/like/
+2025-02-19 12:06:00,099 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570364185109401567/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 12:06:00,100 - InstagramBot - INFO - Performed likes action. Hourly: 16/20, Daily: 56/100
+2025-02-19 12:06:00,100 - InstagramBot - INFO - Liked post 3570364185109401567_52710064 from #espiritosanto -> https://www.instagram.com/p/DGMe09MOQ_f/
+2025-02-19 12:06:31,103 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570807064420354739/like/
+2025-02-19 12:06:31,594 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570807064420354739/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 12:06:31,594 - InstagramBot - INFO - Performed likes action. Hourly: 17/20, Daily: 57/100
+2025-02-19 12:06:31,596 - InstagramBot - INFO - Liked post 3570807064420354739_59112408377 from #espiritosanto -> https://www.instagram.com/p/DGODhssOwqz/
+2025-02-19 12:07:02,597 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571113624690240321/like/
+2025-02-19 12:07:03,033 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571113624690240321/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 12:07:03,033 - InstagramBot - INFO - Performed likes action. Hourly: 18/20, Daily: 58/100
+2025-02-19 12:07:03,035 - InstagramBot - INFO - Liked post 3571113624690240321_52710064 from #espiritosanto -> https://www.instagram.com/p/DGPJOvMOCtB/
+2025-02-19 12:07:34,036 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570581739639579177/like/
+2025-02-19 12:07:34,451 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570581739639579177/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 12:07:34,452 - InstagramBot - INFO - Performed likes action. Hourly: 19/20, Daily: 59/100
+2025-02-19 12:07:34,453 - InstagramBot - INFO - Liked post 3570581739639579177_326341103 from #espiritosanto -> https://www.instagram.com/p/DGNQSyotqIp/
+2025-02-19 12:08:05,455 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568888331955515222/like/
+2025-02-19 12:08:05,915 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3568888331955515222/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 12:08:05,915 - InstagramBot - INFO - Performed likes action. Hourly: 20/20, Daily: 60/100
+2025-02-19 12:08:05,916 - InstagramBot - INFO - Liked post 3568888331955515222_59112408377 from #espiritosanto -> https://www.instagram.com/p/DGHPQd1Pq9W/
+2025-02-19 12:08:35,918 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 12:08:35,918 - InstagramBot - WARNING - Like limit reached during execution
+2025-02-19 12:08:35,918 - InstagramBot - INFO - Successfully liked 5 posts from #espiritosanto
+2025-02-19 12:09:05,919 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 12:14:05,921 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 12:14:35,922 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 12:14:35,923 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 12:14:35,923 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 12:15:05,924 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 12:20:05,925 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 12:20:35,927 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 12:20:35,927 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 12:20:35,927 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 12:21:05,928 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 12:26:05,929 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 12:26:35,930 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 12:26:35,930 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 12:26:35,930 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 12:27:05,932 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 12:32:05,932 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 12:32:35,934 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 12:32:35,934 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 12:32:35,934 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 12:33:05,935 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 12:38:05,936 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 12:38:35,937 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 12:38:35,938 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 12:38:35,938 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 12:39:05,939 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 12:44:05,939 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 12:44:35,941 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 12:44:35,941 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 12:44:35,941 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 12:45:05,942 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 12:50:05,944 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 12:50:35,945 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 12:50:35,947 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 12:50:35,947 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 12:51:05,948 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 12:56:05,949 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 12:56:35,951 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 12:56:35,951 - InstagramBot - INFO - Reset hourly likes counter
+2025-02-19 12:56:35,952 - InstagramBot - INFO - Reset hourly follows counter
+2025-02-19 12:56:37,281 - public_request - INFO - [None] [404] GET https://www.instagram.com/explore/tags/espiritosanto/?__a=1&__d=dis
+2025-02-19 12:56:38,282 - instagrapi - INFO - https://i.instagram.com/api/v1/tags/espiritosanto/sections/
+2025-02-19 12:56:40,911 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/tags/espiritosanto/sections/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 12:56:41,922 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570060685489588339/like/
+2025-02-19 12:56:42,419 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570060685489588339/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 12:56:42,420 - InstagramBot - INFO - Performed likes action. Hourly: 1/20, Daily: 61/100
+2025-02-19 12:56:42,421 - InstagramBot - INFO - Liked post 3570060685489588339_29419162708 from #espiritosanto -> https://www.instagram.com/p/DGLZ0dJMchz/
+2025-02-19 12:57:13,424 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570364185109401567/like/
+2025-02-19 12:57:13,971 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570364185109401567/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 12:57:13,972 - InstagramBot - INFO - Performed likes action. Hourly: 2/20, Daily: 62/100
+2025-02-19 12:57:13,973 - InstagramBot - INFO - Liked post 3570364185109401567_52710064 from #espiritosanto -> https://www.instagram.com/p/DGMe09MOQ_f/
+2025-02-19 12:57:44,974 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570966577492532541/like/
+2025-02-19 12:57:45,440 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570966577492532541/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 12:57:45,441 - InstagramBot - INFO - Performed likes action. Hourly: 3/20, Daily: 63/100
+2025-02-19 12:57:45,442 - InstagramBot - INFO - Liked post 3570966577492532541_29419162708 from #espiritosanto -> https://www.instagram.com/p/DGOny60PB09/
+2025-02-19 12:58:16,443 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571113624690240321/like/
+2025-02-19 12:58:16,891 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571113624690240321/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 12:58:16,892 - InstagramBot - INFO - Performed likes action. Hourly: 4/20, Daily: 64/100
+2025-02-19 12:58:16,893 - InstagramBot - INFO - Liked post 3571113624690240321_52710064 from #espiritosanto -> https://www.instagram.com/p/DGPJOvMOCtB/
+2025-02-19 12:58:47,895 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570807064420354739/like/
+2025-02-19 12:58:48,432 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570807064420354739/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 12:58:48,432 - InstagramBot - INFO - Performed likes action. Hourly: 5/20, Daily: 65/100
+2025-02-19 12:58:48,433 - InstagramBot - INFO - Liked post 3570807064420354739_59112408377 from #espiritosanto -> https://www.instagram.com/p/DGODhssOwqz/
+2025-02-19 12:59:19,435 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568888331955515222/like/
+2025-02-19 12:59:19,876 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3568888331955515222/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 12:59:19,878 - InstagramBot - INFO - Performed likes action. Hourly: 6/20, Daily: 66/100
+2025-02-19 12:59:19,879 - InstagramBot - INFO - Liked post 3568888331955515222_59112408377 from #espiritosanto -> https://www.instagram.com/p/DGHPQd1Pq9W/
+2025-02-19 12:59:50,880 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570581739639579177/like/
+2025-02-19 12:59:51,371 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570581739639579177/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 12:59:51,373 - InstagramBot - INFO - Performed likes action. Hourly: 7/20, Daily: 67/100
+2025-02-19 12:59:51,373 - InstagramBot - INFO - Liked post 3570581739639579177_326341103 from #espiritosanto -> https://www.instagram.com/p/DGNQSyotqIp/
+2025-02-19 13:00:22,375 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568141384587923988/like/
+2025-02-19 13:00:22,832 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3568141384587923988/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 13:00:22,833 - InstagramBot - INFO - Performed likes action. Hourly: 8/20, Daily: 68/100
+2025-02-19 13:00:22,834 - InstagramBot - INFO - Liked post 3568141384587923988_52710064 from #espiritosanto -> https://www.instagram.com/p/DGEla84u9IU/
+2025-02-19 13:00:53,836 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570337577592819078/like/
+2025-02-19 13:00:55,114 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570337577592819078/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 13:00:55,114 - InstagramBot - INFO - Performed likes action. Hourly: 9/20, Daily: 69/100
+2025-02-19 13:00:55,116 - InstagramBot - INFO - Liked post 3570337577592819078_226684872 from #espiritosanto -> https://www.instagram.com/p/DGMYxxApg2G/
+2025-02-19 13:01:26,118 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568845214493361435/like/
+2025-02-19 13:01:27,433 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3568845214493361435/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 13:01:27,434 - InstagramBot - INFO - Performed likes action. Hourly: 10/20, Daily: 70/100
+2025-02-19 13:01:28,755 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGHFdBkOsUb%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 13:01:31,963 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGHFdBkOsUb%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 13:01:35,197 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGHFdBkOsUb%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 13:01:36,198 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568845214493361435/info/
+2025-02-19 13:01:36,592 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3568845214493361435/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 13:01:36,593 - InstagramBot - INFO - Liked post 3568845214493361435_52710064 from #espiritosanto -> https://www.instagram.com/p/DGHFdBkOsUb/
+2025-02-19 13:02:07,595 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570284948540085928/like/
+2025-02-19 13:02:08,061 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570284948540085928/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 13:02:08,061 - InstagramBot - INFO - Performed likes action. Hourly: 11/20, Daily: 71/100
+2025-02-19 13:02:08,062 - InstagramBot - INFO - Liked post 3570284948540085928_67004683955 from #espiritosanto -> https://www.instagram.com/p/DGMMz6Yp9ao/
+2025-02-19 13:02:39,064 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568192578877959068/like/
+2025-02-19 13:02:39,547 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3568192578877959068/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 13:02:39,549 - InstagramBot - INFO - Performed likes action. Hourly: 12/20, Daily: 72/100
+2025-02-19 13:02:39,549 - InstagramBot - INFO - Liked post 3568192578877959068_56531812714 from #espiritosanto -> https://www.instagram.com/p/DGExD7SNKuc/
+2025-02-19 13:03:10,551 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570971357539488192/like/
+2025-02-19 13:03:11,016 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570971357539488192/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 13:03:11,017 - InstagramBot - INFO - Performed likes action. Hourly: 13/20, Daily: 73/100
+2025-02-19 13:03:11,018 - InstagramBot - INFO - Liked post 3570971357539488192_59112408377 from #espiritosanto -> https://www.instagram.com/p/DGOo4elPFHA/
+2025-02-19 13:03:42,021 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3566019817007479572/like/
+2025-02-19 13:03:42,476 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3566019817007479572/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 13:03:42,476 - InstagramBot - INFO - Performed likes action. Hourly: 14/20, Daily: 74/100
+2025-02-19 13:03:42,477 - InstagramBot - INFO - Liked post 3566019817007479572_52710064 from #espiritosanto -> https://www.instagram.com/p/DF9DCFGu_sU/
+2025-02-19 13:04:13,479 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571422266627004687/like/
+2025-02-19 13:04:13,932 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571422266627004687/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 13:04:13,933 - InstagramBot - INFO - Performed likes action. Hourly: 15/20, Daily: 75/100
+2025-02-19 13:04:13,934 - InstagramBot - INFO - Liked post 3571422266627004687_53140292666 from #espiritosanto -> https://www.instagram.com/p/DGQPaEZORkP/
+2025-02-19 13:04:43,935 - InstagramBot - INFO - Successfully liked 15 posts from #espiritosanto
+2025-02-19 13:05:13,936 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 13:10:13,937 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 13:10:43,938 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 13:10:45,261 - public_request - INFO - [None] [404] GET https://www.instagram.com/explore/tags/espiritosanto/?__a=1&__d=dis
+2025-02-19 13:10:46,263 - instagrapi - INFO - https://i.instagram.com/api/v1/tags/espiritosanto/sections/
+2025-02-19 13:10:50,253 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/tags/espiritosanto/sections/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 13:10:51,268 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570364185109401567/like/
+2025-02-19 13:10:52,058 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570364185109401567/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 13:10:52,058 - InstagramBot - INFO - Performed likes action. Hourly: 16/20, Daily: 76/100
+2025-02-19 13:10:52,059 - InstagramBot - INFO - Liked post 3570364185109401567_52710064 from #espiritosanto -> https://www.instagram.com/p/DGMe09MOQ_f/
+2025-02-19 13:11:23,061 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571113624690240321/like/
+2025-02-19 13:11:23,509 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571113624690240321/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 13:11:23,509 - InstagramBot - INFO - Performed likes action. Hourly: 17/20, Daily: 77/100
+2025-02-19 13:11:23,510 - InstagramBot - INFO - Liked post 3571113624690240321_52710064 from #espiritosanto -> https://www.instagram.com/p/DGPJOvMOCtB/
+2025-02-19 13:11:54,512 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570807064420354739/like/
+2025-02-19 13:11:55,087 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570807064420354739/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 13:11:55,088 - InstagramBot - INFO - Performed likes action. Hourly: 18/20, Daily: 78/100
+2025-02-19 13:11:55,088 - InstagramBot - INFO - Liked post 3570807064420354739_59112408377 from #espiritosanto -> https://www.instagram.com/p/DGODhssOwqz/
+2025-02-19 13:12:26,091 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568888331955515222/like/
+2025-02-19 13:12:26,539 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3568888331955515222/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 13:12:26,539 - InstagramBot - INFO - Performed likes action. Hourly: 19/20, Daily: 79/100
+2025-02-19 13:12:26,540 - InstagramBot - INFO - Liked post 3568888331955515222_59112408377 from #espiritosanto -> https://www.instagram.com/p/DGHPQd1Pq9W/
+2025-02-19 13:12:57,542 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570581739639579177/like/
+2025-02-19 13:12:58,006 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570581739639579177/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 13:12:58,007 - InstagramBot - INFO - Performed likes action. Hourly: 20/20, Daily: 80/100
+2025-02-19 13:12:58,008 - InstagramBot - INFO - Liked post 3570581739639579177_326341103 from #espiritosanto -> https://www.instagram.com/p/DGNQSyotqIp/
+2025-02-19 13:13:28,009 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 13:13:28,010 - InstagramBot - WARNING - Like limit reached during execution
+2025-02-19 13:13:28,010 - InstagramBot - INFO - Successfully liked 5 posts from #espiritosanto
+2025-02-19 13:13:58,011 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 13:18:58,013 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 13:19:28,014 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 13:19:28,015 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 13:19:28,015 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 13:19:58,016 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 13:24:58,018 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 13:25:28,019 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 13:25:28,019 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 13:25:28,020 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 13:25:58,021 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 13:30:58,022 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 13:31:28,023 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 13:31:28,023 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 13:31:28,024 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 13:31:58,025 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 13:36:58,026 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 13:37:28,027 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 13:37:28,027 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 13:37:28,027 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 13:37:58,029 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 13:42:58,030 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 13:43:28,032 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 13:43:28,032 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 13:43:28,033 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 13:43:58,033 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 13:48:58,034 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 13:49:28,035 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 13:49:28,035 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 13:49:28,037 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 13:49:58,037 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 13:54:58,038 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 13:55:28,040 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 13:55:28,040 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 13:55:28,041 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 13:55:58,042 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 14:00:58,043 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 14:01:28,044 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 14:01:28,044 - InstagramBot - INFO - Reset hourly likes counter
+2025-02-19 14:01:28,044 - InstagramBot - INFO - Reset hourly follows counter
+2025-02-19 14:01:29,365 - public_request - INFO - [None] [404] GET https://www.instagram.com/explore/tags/espiritosanto/?__a=1&__d=dis
+2025-02-19 14:01:30,367 - instagrapi - INFO - https://i.instagram.com/api/v1/tags/espiritosanto/sections/
+2025-02-19 14:01:33,350 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/tags/espiritosanto/sections/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:01:34,361 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570794377313442450/like/
+2025-02-19 14:01:35,251 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570794377313442450/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:01:35,252 - InstagramBot - INFO - Performed likes action. Hourly: 1/20, Daily: 81/100
+2025-02-19 14:01:36,496 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGOApE5utqS%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 14:01:39,749 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGOApE5utqS%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 14:01:42,971 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGOApE5utqS%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 14:01:43,972 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570794377313442450/info/
+2025-02-19 14:01:44,627 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3570794377313442450/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:01:44,628 - InstagramBot - INFO - Liked post 3570794377313442450_45037219120 from #espiritosanto -> https://www.instagram.com/p/DGOApE5utqS/
+2025-02-19 14:02:15,630 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570364185109401567/like/
+2025-02-19 14:02:16,131 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570364185109401567/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:02:16,131 - InstagramBot - INFO - Performed likes action. Hourly: 2/20, Daily: 82/100
+2025-02-19 14:02:16,132 - InstagramBot - INFO - Liked post 3570364185109401567_52710064 from #espiritosanto -> https://www.instagram.com/p/DGMe09MOQ_f/
+2025-02-19 14:02:47,134 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571113624690240321/like/
+2025-02-19 14:02:47,581 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571113624690240321/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:02:47,581 - InstagramBot - INFO - Performed likes action. Hourly: 3/20, Daily: 83/100
+2025-02-19 14:02:47,583 - InstagramBot - INFO - Liked post 3571113624690240321_52710064 from #espiritosanto -> https://www.instagram.com/p/DGPJOvMOCtB/
+2025-02-19 14:03:18,586 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570807064420354739/like/
+2025-02-19 14:03:19,065 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570807064420354739/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:03:19,066 - InstagramBot - INFO - Performed likes action. Hourly: 4/20, Daily: 84/100
+2025-02-19 14:03:19,067 - InstagramBot - INFO - Liked post 3570807064420354739_59112408377 from #espiritosanto -> https://www.instagram.com/p/DGODhssOwqz/
+2025-02-19 14:03:50,069 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568888331955515222/like/
+2025-02-19 14:03:50,532 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3568888331955515222/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:03:50,534 - InstagramBot - INFO - Performed likes action. Hourly: 5/20, Daily: 85/100
+2025-02-19 14:03:50,534 - InstagramBot - INFO - Liked post 3568888331955515222_59112408377 from #espiritosanto -> https://www.instagram.com/p/DGHPQd1Pq9W/
+2025-02-19 14:04:21,536 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570581739639579177/like/
+2025-02-19 14:04:22,001 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570581739639579177/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:04:22,002 - InstagramBot - INFO - Performed likes action. Hourly: 6/20, Daily: 86/100
+2025-02-19 14:04:22,003 - InstagramBot - INFO - Liked post 3570581739639579177_326341103 from #espiritosanto -> https://www.instagram.com/p/DGNQSyotqIp/
+2025-02-19 14:04:53,005 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570337577592819078/like/
+2025-02-19 14:04:53,464 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570337577592819078/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:04:53,465 - InstagramBot - INFO - Performed likes action. Hourly: 7/20, Daily: 87/100
+2025-02-19 14:04:53,465 - InstagramBot - INFO - Liked post 3570337577592819078_226684872 from #espiritosanto -> https://www.instagram.com/p/DGMYxxApg2G/
+2025-02-19 14:05:24,467 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568141384587923988/like/
+2025-02-19 14:05:24,974 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3568141384587923988/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:05:24,974 - InstagramBot - INFO - Performed likes action. Hourly: 8/20, Daily: 88/100
+2025-02-19 14:05:24,975 - InstagramBot - INFO - Liked post 3568141384587923988_52710064 from #espiritosanto -> https://www.instagram.com/p/DGEla84u9IU/
+2025-02-19 14:05:55,977 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570284948540085928/like/
+2025-02-19 14:05:56,466 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570284948540085928/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:05:56,466 - InstagramBot - INFO - Performed likes action. Hourly: 9/20, Daily: 89/100
+2025-02-19 14:05:56,467 - InstagramBot - INFO - Liked post 3570284948540085928_67004683955 from #espiritosanto -> https://www.instagram.com/p/DGMMz6Yp9ao/
+2025-02-19 14:06:27,470 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570971357539488192/like/
+2025-02-19 14:06:28,080 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570971357539488192/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:06:28,080 - InstagramBot - INFO - Performed likes action. Hourly: 10/20, Daily: 90/100
+2025-02-19 14:06:28,081 - InstagramBot - INFO - Liked post 3570971357539488192_59112408377 from #espiritosanto -> https://www.instagram.com/p/DGOo4elPFHA/
+2025-02-19 14:06:59,083 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568067480019628405/like/
+2025-02-19 14:07:00,870 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3568067480019628405/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:07:00,871 - InstagramBot - INFO - Performed likes action. Hourly: 11/20, Daily: 91/100
+2025-02-19 14:07:02,156 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGEUnf5MXF1%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 14:07:05,397 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGEUnf5MXF1%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 14:07:08,608 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGEUnf5MXF1%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 14:07:09,610 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568067480019628405/info/
+2025-02-19 14:07:10,356 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3568067480019628405/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:07:10,358 - InstagramBot - INFO - Liked post 3568067480019628405_29419162708 from #espiritosanto -> https://www.instagram.com/p/DGEUnf5MXF1/
+2025-02-19 14:07:41,360 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571061609129587978/like/
+2025-02-19 14:07:43,125 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571061609129587978/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:07:43,125 - InstagramBot - INFO - Performed likes action. Hourly: 12/20, Daily: 92/100
+2025-02-19 14:07:44,332 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGO9Zz7NDUK%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 14:07:47,540 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGO9Zz7NDUK%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 14:07:50,876 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGO9Zz7NDUK%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 14:07:51,878 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571061609129587978/info/
+2025-02-19 14:07:52,198 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3571061609129587978/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:07:52,200 - InstagramBot - INFO - Liked post 3571061609129587978_66668785285 from #espiritosanto -> https://www.instagram.com/p/DGO9Zz7NDUK/
+2025-02-19 14:08:23,201 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3569585089861644954/like/
+2025-02-19 14:08:24,302 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3569585089861644954/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:08:24,302 - InstagramBot - INFO - Performed likes action. Hourly: 13/20, Daily: 93/100
+2025-02-19 14:08:25,514 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGJtroMu_Ka%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 14:08:28,879 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGJtroMu_Ka%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 14:08:32,078 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGJtroMu_Ka%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 14:08:33,080 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3569585089861644954/info/
+2025-02-19 14:08:33,474 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3569585089861644954/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:08:33,476 - InstagramBot - INFO - Liked post 3569585089861644954_52710064 from #espiritosanto -> https://www.instagram.com/p/DGJtroMu_Ka/
+2025-02-19 14:09:04,477 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570904915914343959/like/
+2025-02-19 14:09:05,421 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570904915914343959/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:09:05,422 - InstagramBot - INFO - Performed likes action. Hourly: 14/20, Daily: 94/100
+2025-02-19 14:09:06,635 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGOZxn_xUYX%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 14:09:09,850 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGOZxn_xUYX%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 14:09:13,087 - public_request - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22shortcode%22%3A%22DGOZxn_xUYX%22%2C%22child_comment_count%22%3A3%2C%22fetch_comment_count%22%3A40%2C%22parent_comment_count%22%3A24%2C%22has_threaded_comments%22%3Afalse%7D&query_hash=477b65a610463740ccdb83135b2014db
+2025-02-19 14:09:14,088 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570904915914343959/info/
+2025-02-19 14:09:14,539 - private_request - INFO - alexandrequeirozmd [200] GET https://i.instagram.com/api/v1/media/3570904915914343959/info/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:09:14,541 - InstagramBot - INFO - Liked post 3570904915914343959_3419580462 from #espiritosanto -> https://www.instagram.com/p/DGOZxn_xUYX/
+2025-02-19 14:09:45,543 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568845214493361435/like/
+2025-02-19 14:09:46,140 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3568845214493361435/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:09:46,141 - InstagramBot - INFO - Performed likes action. Hourly: 15/20, Daily: 95/100
+2025-02-19 14:09:46,142 - InstagramBot - INFO - Liked post 3568845214493361435_52710064 from #espiritosanto -> https://www.instagram.com/p/DGHFdBkOsUb/
+2025-02-19 14:10:16,143 - InstagramBot - INFO - Successfully liked 15 posts from #espiritosanto
+2025-02-19 14:10:46,145 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 14:15:46,146 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 14:16:16,147 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 14:16:17,415 - public_request - INFO - [None] [404] GET https://www.instagram.com/explore/tags/espiritosanto/?__a=1&__d=dis
+2025-02-19 14:16:18,416 - instagrapi - INFO - https://i.instagram.com/api/v1/tags/espiritosanto/sections/
+2025-02-19 14:16:20,996 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/tags/espiritosanto/sections/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:16:22,007 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570807064420354739/like/
+2025-02-19 14:16:22,692 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570807064420354739/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:16:22,693 - InstagramBot - INFO - Performed likes action. Hourly: 16/20, Daily: 96/100
+2025-02-19 14:16:22,694 - InstagramBot - INFO - Liked post 3570807064420354739_59112408377 from #espiritosanto -> https://www.instagram.com/p/DGODhssOwqz/
+2025-02-19 14:16:53,696 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3571113624690240321/like/
+2025-02-19 14:16:54,169 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3571113624690240321/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:16:54,169 - InstagramBot - INFO - Performed likes action. Hourly: 17/20, Daily: 97/100
+2025-02-19 14:16:54,170 - InstagramBot - INFO - Liked post 3571113624690240321_52710064 from #espiritosanto -> https://www.instagram.com/p/DGPJOvMOCtB/
+2025-02-19 14:17:25,172 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3568141384587923988/like/
+2025-02-19 14:17:25,634 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3568141384587923988/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:17:25,635 - InstagramBot - INFO - Performed likes action. Hourly: 18/20, Daily: 98/100
+2025-02-19 14:17:25,636 - InstagramBot - INFO - Liked post 3568141384587923988_52710064 from #espiritosanto -> https://www.instagram.com/p/DGEla84u9IU/
+2025-02-19 14:17:56,638 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570337577592819078/like/
+2025-02-19 14:17:57,175 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570337577592819078/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:17:57,175 - InstagramBot - INFO - Performed likes action. Hourly: 19/20, Daily: 99/100
+2025-02-19 14:17:57,176 - InstagramBot - INFO - Liked post 3570337577592819078_226684872 from #espiritosanto -> https://www.instagram.com/p/DGMYxxApg2G/
+2025-02-19 14:18:28,178 - instagrapi - INFO - https://i.instagram.com/api/v1/media/3570581739639579177/like/
+2025-02-19 14:18:28,610 - private_request - INFO - alexandrequeirozmd [200] POST https://i.instagram.com/api/v1/media/3570581739639579177/like/ (269.0.0.18.75, OnePlus 6T)
+2025-02-19 14:18:28,610 - InstagramBot - INFO - Performed likes action. Hourly: 20/20, Daily: 100/100
+2025-02-19 14:18:28,611 - InstagramBot - INFO - Liked post 3570581739639579177_326341103 from #espiritosanto -> https://www.instagram.com/p/DGNQSyotqIp/
+2025-02-19 14:18:58,612 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 14:18:58,612 - InstagramBot - WARNING - Like limit reached during execution
+2025-02-19 14:18:58,612 - InstagramBot - INFO - Successfully liked 5 posts from #espiritosanto
+2025-02-19 14:19:28,613 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 14:24:28,615 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 14:24:58,616 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 14:24:58,617 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 14:24:58,617 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 14:25:28,617 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 14:30:28,619 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 14:30:58,620 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 14:30:58,620 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 14:30:58,620 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 14:31:28,622 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 14:36:28,623 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 14:36:58,625 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 14:36:58,625 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 14:36:58,625 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 14:37:28,626 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 14:42:28,627 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 14:42:58,629 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 14:42:58,629 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 14:42:58,630 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 14:43:28,630 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 14:48:28,631 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 14:48:58,632 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 14:48:58,633 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 14:48:58,633 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 14:49:28,634 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 14:54:28,636 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 14:54:58,637 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 14:54:58,638 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 14:54:58,638 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 14:55:28,640 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 15:00:28,640 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 15:00:58,642 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 15:00:58,643 - InstagramBot - WARNING - Hourly likes limit reached (20)
+2025-02-19 15:00:58,643 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 15:01:28,644 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 15:06:28,645 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 15:06:58,646 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 15:06:58,646 - InstagramBot - INFO - Reset hourly likes counter
+2025-02-19 15:06:58,647 - InstagramBot - INFO - Reset hourly follows counter
+2025-02-19 15:06:58,647 - InstagramBot - WARNING - Daily likes limit reached (100)
+2025-02-19 15:06:58,647 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 15:07:28,649 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 15:12:28,650 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 15:12:58,651 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 15:12:58,652 - InstagramBot - WARNING - Daily likes limit reached (100)
+2025-02-19 15:12:58,652 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 15:13:28,653 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 15:18:28,654 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 15:18:58,655 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 15:18:58,655 - InstagramBot - WARNING - Daily likes limit reached (100)
+2025-02-19 15:18:58,655 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 15:19:28,656 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 15:24:28,658 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 15:24:58,659 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 15:24:58,660 - InstagramBot - WARNING - Daily likes limit reached (100)
+2025-02-19 15:24:58,660 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 15:25:28,661 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 15:30:28,662 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 15:30:58,663 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 15:30:58,663 - InstagramBot - WARNING - Daily likes limit reached (100)
+2025-02-19 15:30:58,663 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 15:31:28,665 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 15:36:28,666 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 15:36:58,668 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 15:36:58,668 - InstagramBot - WARNING - Daily likes limit reached (100)
+2025-02-19 15:36:58,669 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 15:37:28,670 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 15:42:28,671 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 15:42:58,672 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 15:42:58,672 - InstagramBot - WARNING - Daily likes limit reached (100)
+2025-02-19 15:42:58,672 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 15:43:28,674 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 15:48:28,675 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 15:48:58,676 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 15:48:58,676 - InstagramBot - WARNING - Daily likes limit reached (100)
+2025-02-19 15:48:58,676 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 15:49:28,677 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 15:54:28,678 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 15:54:58,679 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 15:54:58,680 - InstagramBot - WARNING - Daily likes limit reached (100)
+2025-02-19 15:54:58,680 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 15:55:28,681 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 16:00:28,683 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 16:00:58,684 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 16:00:58,684 - InstagramBot - WARNING - Daily likes limit reached (100)
+2025-02-19 16:00:58,685 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 16:01:28,685 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 16:06:28,686 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 16:06:58,687 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 16:06:58,687 - InstagramBot - INFO - Reset hourly likes counter
+2025-02-19 16:06:58,687 - InstagramBot - INFO - Reset hourly follows counter
+2025-02-19 16:06:58,687 - InstagramBot - WARNING - Daily likes limit reached (100)
+2025-02-19 16:06:58,689 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 16:07:28,689 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 16:12:28,690 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 16:12:58,692 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 16:12:58,692 - InstagramBot - WARNING - Daily likes limit reached (100)
+2025-02-19 16:12:58,693 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 16:13:28,694 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 16:18:28,695 - InstagramBot - INFO - Successfully retrieved profile info for alexandrequeirozmd
+2025-02-19 16:18:58,697 - InstagramBot - INFO - Profile followers: 4410
+2025-02-19 16:18:58,698 - InstagramBot - WARNING - Daily likes limit reached (100)
+2025-02-19 16:18:58,698 - InstagramBot - WARNING - Like limit reached, skipping like_hashtag_posts
+2025-02-19 16:19:28,699 - InstagramBot - INFO - Waiting 5 minutes before liking more posts...
+2025-02-19 16:21:04,507 - InstagramBot - INFO - Bot stopped manually.
