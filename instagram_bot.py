@@ -1,6 +1,6 @@
 import random
 from instagrapi import Client
-from config import CREDENTIALS, HASHTAG_CONFIG, LOGGING_CONFIG, RATE_LIMITS, INTERACTION_LIMITS
+from config import CREDENTIALS, HASHTAG_CONFIG, LOGGING_CONFIG, RATE_LIMITS, INTERACTION_LIMITS, STORY_CONFIG
 import logging
 import time
 from utils import setup_logging, handle_rate_limit, InteractionLimiter
@@ -191,7 +191,7 @@ class InstagramBot:
 
     @handle_rate_limit
     def follow_user(self, username):
-        """Follow a specific user"""
+        """Segue um usuário e salva o username em um arquivo seguido_users.txt"""
         if not self.limiter.can_perform_action('follows'):
             logger.warning("Follow limit reached, skipping follow_user")
             return False
@@ -200,7 +200,13 @@ class InstagramBot:
             user_id = self.cl.user_id_from_username(username)
             if self.cl.user_follow(user_id):
                 self.limiter.increment_action('follows')
-                logger.info(f"Successfully followed user {username}")
+
+                # Salvar username seguido no arquivo
+                with open("followed_users.txt", "a", encoding="utf-8") as file:
+                    file.write(username + "\n")
+
+                logger.info(f"✔️ Seguiu usuário: {username}")
+
                 return True
             return False
         except json.JSONDecodeError as je:
@@ -217,6 +223,73 @@ class InstagramBot:
             logger.info("Successfully logged out")
         except Exception as e:
             logger.error(f"Error during logout: {str(e)}")
+            
+    @handle_rate_limit
+    def view_stories(self):
+        """Visualiza stories e salva a URL no arquivo viewed_stories.txt"""
+        if not STORY_CONFIG['view_stories']:
+            logger.info("Visualização de stories está desativada.")
+            return
+
+        logger.info("Iniciando a visualização de stories...")
+
+        try:
+            story_count = 0
+            user_ids = []
+
+            if STORY_CONFIG['source'] == 'followers':
+                if not hasattr(self, 'cached_followers'):
+                    self.cached_followers = self.cl.user_following(self.cl.user_id)
+                user_ids = list(self.cached_followers.keys())
+
+            elif STORY_CONFIG['source'] == 'list':
+                user_ids = [self.cl.user_id_from_username(username) for username in STORY_CONFIG['user_list']]
+
+            elif STORY_CONFIG['source'] == 'hashtags':
+                for hashtag in STORY_CONFIG['hashtags']:
+                    medias = self.cl.hashtag_medias_recent(hashtag, amount=10)
+                    for media in medias:
+                        if media.user.pk not in user_ids:
+                            user_ids.append(media.user.pk)
+                        if len(user_ids) >= STORY_CONFIG['max_stories']:
+                            break
+                    if len(user_ids) >= STORY_CONFIG['max_stories']:
+                        break
+
+            else:
+                logger.warning("Fonte de stories inválida. Verifique a configuração.")
+                return
+
+            for user_id in user_ids:
+                try:
+                    stories = self.cl.user_stories(user_id)
+                    if not stories:
+                        continue
+
+                    for story in stories:
+                        # Corrigido: Passando uma lista com o ID do story
+                        self.cl.story_seen([story.id])
+
+                        story_count += 1
+
+                        # Salvar URL do Story
+                        story_url = f"https://www.instagram.com/stories/{user_id}/{story.id}/"
+                        with open("viewed_stories.txt", "a", encoding="utf-8") as file:
+                            file.write(story_url + "\n")
+
+                        logger.info(f"✔️ Visualizado story de {user_id} - URL: {story_url}")
+
+                        if story_count >= STORY_CONFIG['max_stories']:
+                            logger.info(f"Limite de {STORY_CONFIG['max_stories']} stories atingido.")
+                            return
+
+                        time.sleep(random.uniform(8, 15))  # Aumentar tempo para evitar bloqueios
+                except Exception as e:
+                    logger.error(f"Erro ao visualizar stories de {user_id}: {str(e)}")
+
+        except Exception as e:
+            logger.error(f"Erro ao visualizar stories: {str(e)}")
+
 
 def main():
     bot = InstagramBot()
@@ -228,18 +301,25 @@ def main():
 
     try:
         while True:
-            # Get profile information (opcional)
-            profile_info = bot.get_profile_info(CREDENTIALS['username'])
-            if profile_info:
-                logger.info(f"Profile followers: {profile_info.follower_count}")
-
-            # Like posts by hashtag
-            bot.like_multiple_hashtags()
-            bot.like_hashtag_posts("espiritosanto", count=15)
-
-            # Espera 5 minutos antes de curtir mais posts (ajuste conforme necessário)
-            logger.info("Waiting 5 minutes before liking more posts...")
-            time.sleep(300)  # 300 segundos = 5 minutos
+            # 3️⃣ Seguir um usuário aleatório dos seguidores
+            followers = list(bot.cl.user_following(bot.cl.user_id).keys())
+            if followers:
+                random_user = bot.cl.user_info(random.choice(followers)).username
+                bot.follow_user(random_user)
+                logger.info(f"Esperando 10 segundos antes da próxima ação...")
+                time.sleep(10)
+                
+            # 2️⃣ Curtir um post de cada hashtag
+            hashtags = HASHTAG_CONFIG['hashtags']
+            for hashtag in hashtags:
+                if bot.like_hashtag_posts(hashtag, count=1):
+                    logger.info(f"Esperando 10 segundos antes da próxima ação...")
+                    time.sleep(10)
+                
+            # 1️⃣ Visualizar um Story
+            bot.view_stories()
+            logger.info("Esperando 10 segundos antes da próxima ação...")
+            time.sleep(10)
 
     except KeyboardInterrupt:
         logger.info("Bot stopped manually.")

@@ -60,3 +60,12 @@ HASHTAG_CONFIG = {
     'max_hashtags': 2,         # Maximum number of hashtags to process in one run
     'randomize': True          # Whether to randomize hashtag selection
 }
+
+# Story Viewing Configuration
+STORY_CONFIG = {
+    'view_stories': True,  # Ativar ou desativar a visualização de stories
+    'source': 'followers',  # Opções: 'followers', 'list', 'hashtags'
+    'user_list': [],  # Lista de usuários específicos para visualizar stories (se aplicável)
+    'hashtags': [],  # Lista de hashtags para buscar stories (se aplicável)
+    'max_stories': 20,  # Número máximo de stories para visualizar por sessão
+}
